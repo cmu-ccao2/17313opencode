@@ -1,0 +1,1 @@
+genhtml app/coverage/.lcov.info.2bb3af3ae1340617.tmp --output-directory lcov-out

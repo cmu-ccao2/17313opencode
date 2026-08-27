@@ -1,0 +1,925 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - lcov.info - i18n/br.ts</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="title">LCOV - code coverage report</td></tr>
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+            <tr>
+              <td width="100%">
+                <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="10%" class="headerValue"><a href="../index.html" title="Click to go to top-level">top level</a> - <a href="index.html" title="Click to go to directory i18n">i18n</a> - br.ts</td>
+            <td width="5%"></td>
+            <td width="5%"></td>
+            <td width="5%" class="headerCovTableHead">Coverage</td>
+            <td width="5%" class="headerCovTableHead" title="Covered + Uncovered code">Total</td>
+            <td width="5%" class="headerCovTableHead" title="Exercised code only">Hit</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">lcov.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntryHi">100.0&nbsp;%</td>
+            <td class="headerCovTableEntry">788</td>
+            <td class="headerCovTableEntry">788</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test Date:</td>
+            <td class="headerValue">2026-08-27 02:30:45</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntryHi">-</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">0</td>
+          </tr>
+                  <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+          </table>
+
+          <table cellpadding=0 cellspacing=0 border=0>
+            <tr>
+              <td><br></td>
+            </tr>
+            <tr>
+              <td>
+<pre class="sourceHeading">            Line data    Source code</pre>
+<pre class="source">
+<span id="L1"><span class="lineNum">       1</span>              : import type { Dict } from &quot;./en&quot;</span>
+<span id="L2"><span class="lineNum">       2</span> <span class="tlaGNC">          34 : import { dict as en } from &quot;./en&quot;</span></span>
+<span id="L3"><span class="lineNum">       3</span>              : </span>
+<span id="L4"><span class="lineNum">       4</span> <span class="tlaGNC">          25 : export const dict = {</span></span>
+<span id="L5"><span class="lineNum">       5</span> <span class="tlaGNC">           5 :   ...en,</span></span>
+<span id="L6"><span class="lineNum">       6</span> <span class="tlaGNC">          25 :   &quot;nav.github&quot;: &quot;GitHub&quot;,</span></span>
+<span id="L7"><span class="lineNum">       7</span> <span class="tlaGNC">          35 :   &quot;nav.docs&quot;: &quot;Documentação&quot;,</span></span>
+<span id="L8"><span class="lineNum">       8</span> <span class="tlaGNC">          31 :   &quot;nav.changelog&quot;: &quot;Changelog&quot;,</span></span>
+<span id="L9"><span class="lineNum">       9</span> <span class="tlaGNC">          27 :   &quot;nav.discord&quot;: &quot;Discord&quot;,</span></span>
+<span id="L10"><span class="lineNum">      10</span> <span class="tlaGNC">          15 :   &quot;nav.x&quot;: &quot;X&quot;,</span></span>
+<span id="L11"><span class="lineNum">      11</span> <span class="tlaGNC">          33 :   &quot;nav.enterprise&quot;: &quot;Enterprise&quot;,</span></span>
+<span id="L12"><span class="lineNum">      12</span> <span class="tlaGNC">          19 :   &quot;nav.zen&quot;: &quot;Zen&quot;,</span></span>
+<span id="L13"><span class="lineNum">      13</span> <span class="tlaGNC">          24 :   &quot;nav.login&quot;: &quot;Entrar&quot;,</span></span>
+<span id="L14"><span class="lineNum">      14</span> <span class="tlaGNC">          25 :   &quot;nav.free&quot;: &quot;Download&quot;,</span></span>
+<span id="L15"><span class="lineNum">      15</span> <span class="tlaGNC">          26 :   &quot;nav.home&quot;: &quot;Início&quot;,</span></span>
+<span id="L16"><span class="lineNum">      16</span> <span class="tlaGNC">          31 :   &quot;nav.openMenu&quot;: &quot;Abrir menu&quot;,</span></span>
+<span id="L17"><span class="lineNum">      17</span> <span class="tlaGNC">          47 :   &quot;nav.getStartedFree&quot;: &quot;Começar grátis&quot;,</span></span>
+<span id="L18"><span class="lineNum">      18</span> <span class="tlaGNC">          28 :   &quot;nav.logoAlt&quot;: &quot;OpenCode&quot;,</span></span>
+<span id="L19"><span class="lineNum">      19</span>              : </span>
+<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">          49 :   &quot;nav.context.copyLogo&quot;: &quot;Copiar logo como SVG&quot;,</span></span>
+<span id="L21"><span class="lineNum">      21</span> <span class="tlaGNC">          54 :   &quot;nav.context.copyWordmark&quot;: &quot;Copiar marca como SVG&quot;,</span></span>
+<span id="L22"><span class="lineNum">      22</span> <span class="tlaGNC">          49 :   &quot;nav.context.brandAssets&quot;: &quot;Recursos da marca&quot;,</span></span>
+<span id="L23"><span class="lineNum">      23</span>              : </span>
+<span id="L24"><span class="lineNum">      24</span> <span class="tlaGNC">          28 :   &quot;footer.github&quot;: &quot;GitHub&quot;,</span></span>
+<span id="L25"><span class="lineNum">      25</span> <span class="tlaGNC">          38 :   &quot;footer.docs&quot;: &quot;Documentação&quot;,</span></span>
+<span id="L26"><span class="lineNum">      26</span> <span class="tlaGNC">          34 :   &quot;footer.changelog&quot;: &quot;Changelog&quot;,</span></span>
+<span id="L27"><span class="lineNum">      27</span> <span class="tlaGNC">          30 :   &quot;footer.discord&quot;: &quot;Discord&quot;,</span></span>
+<span id="L28"><span class="lineNum">      28</span> <span class="tlaGNC">          18 :   &quot;footer.x&quot;: &quot;X&quot;,</span></span>
+<span id="L29"><span class="lineNum">      29</span>              : </span>
+<span id="L30"><span class="lineNum">      30</span> <span class="tlaGNC">          25 :   &quot;legal.brand&quot;: &quot;Marca&quot;,</span></span>
+<span id="L31"><span class="lineNum">      31</span> <span class="tlaGNC">          33 :   &quot;legal.privacy&quot;: &quot;Privacidade&quot;,</span></span>
+<span id="L32"><span class="lineNum">      32</span> <span class="tlaGNC">          26 :   &quot;legal.terms&quot;: &quot;Termos&quot;,</span></span>
+<span id="L33"><span class="lineNum">      33</span>              : </span>
+<span id="L34"><span class="lineNum">      34</span> <span class="tlaGNC">          78 :   &quot;email.title&quot;: &quot;Seja o primeiro a saber quando lançarmos novos produtos&quot;,</span></span>
+<span id="L35"><span class="lineNum">      35</span> <span class="tlaGNC">          71 :   &quot;email.subtitle&quot;: &quot;Entre na lista de espera para acesso antecipado.&quot;,</span></span>
+<span id="L36"><span class="lineNum">      36</span> <span class="tlaGNC">          47 :   &quot;email.placeholder&quot;: &quot;Endereço de e-mail&quot;,</span></span>
+<span id="L37"><span class="lineNum">      37</span> <span class="tlaGNC">          36 :   &quot;email.subscribe&quot;: &quot;Inscrever-se&quot;,</span></span>
+<span id="L38"><span class="lineNum">      38</span> <span class="tlaGNC">          87 :   &quot;email.success&quot;: &quot;Quase lá, verifique sua caixa de entrada e confirme seu e-mail&quot;,</span></span>
+<span id="L39"><span class="lineNum">      39</span>              : </span>
+<span id="L40"><span class="lineNum">      40</span> <span class="tlaGNC">          51 :   &quot;notFound.title&quot;: &quot;Não encontrado | opencode&quot;,</span></span>
+<span id="L41"><span class="lineNum">      41</span> <span class="tlaGNC">          58 :   &quot;notFound.heading&quot;: &quot;404 - Página não encontrada&quot;,</span></span>
+<span id="L42"><span class="lineNum">      42</span> <span class="tlaGNC">          31 :   &quot;notFound.home&quot;: &quot;Início&quot;,</span></span>
+<span id="L43"><span class="lineNum">      43</span> <span class="tlaGNC">          40 :   &quot;notFound.docs&quot;: &quot;Documentação&quot;,</span></span>
+<span id="L44"><span class="lineNum">      44</span> <span class="tlaGNC">          30 :   &quot;notFound.github&quot;: &quot;GitHub&quot;,</span></span>
+<span id="L45"><span class="lineNum">      45</span> <span class="tlaGNC">          32 :   &quot;notFound.discord&quot;: &quot;Discord&quot;,</span></span>
+<span id="L46"><span class="lineNum">      46</span> <span class="tlaGNC">          49 :   &quot;notFound.logoLightAlt&quot;: &quot;logo opencode claro&quot;,</span></span>
+<span id="L47"><span class="lineNum">      47</span> <span class="tlaGNC">          49 :   &quot;notFound.logoDarkAlt&quot;: &quot;logo opencode escuro&quot;,</span></span>
+<span id="L48"><span class="lineNum">      48</span>              : </span>
+<span id="L49"><span class="lineNum">      49</span> <span class="tlaGNC">          24 :   &quot;user.logout&quot;: &quot;Sair&quot;,</span></span>
+<span id="L50"><span class="lineNum">      50</span>              : </span>
+<span id="L51"><span class="lineNum">      51</span> <span class="tlaGNC">          89 :   &quot;auth.callback.error.codeMissing&quot;: &quot;Nenhum código de autorização encontrado.&quot;,</span></span>
+<span id="L52"><span class="lineNum">      52</span>              : </span>
+<span id="L53"><span class="lineNum">      53</span> <span class="tlaGNC">          45 :   &quot;workspace.select&quot;: &quot;Selecionar workspace&quot;,</span></span>
+<span id="L54"><span class="lineNum">      54</span> <span class="tlaGNC">          50 :   &quot;workspace.createNew&quot;: &quot;+ Criar novo workspace&quot;,</span></span>
+<span id="L55"><span class="lineNum">      55</span> <span class="tlaGNC">          50 :   &quot;workspace.modal.title&quot;: &quot;Criar novo workspace&quot;,</span></span>
+<span id="L56"><span class="lineNum">      56</span> <span class="tlaGNC">          62 :   &quot;workspace.modal.placeholder&quot;: &quot;Digite o nome do workspace&quot;,</span></span>
+<span id="L57"><span class="lineNum">      57</span>              : </span>
+<span id="L58"><span class="lineNum">      58</span> <span class="tlaGNC">          30 :   &quot;common.cancel&quot;: &quot;Cancelar&quot;,</span></span>
+<span id="L59"><span class="lineNum">      59</span> <span class="tlaGNC">          34 :   &quot;common.creating&quot;: &quot;Criando...&quot;,</span></span>
+<span id="L60"><span class="lineNum">      60</span> <span class="tlaGNC">          27 :   &quot;common.create&quot;: &quot;Criar&quot;,</span></span>
+<span id="L61"><span class="lineNum">      61</span>              : </span>
+<span id="L62"><span class="lineNum">      62</span> <span class="tlaGNC">          79 :   &quot;common.videoUnsupported&quot;: &quot;Seu navegador não suporta a tag de vídeo.&quot;,</span></span>
+<span id="L63"><span class="lineNum">      63</span> <span class="tlaGNC">          32 :   &quot;common.figure&quot;: &quot;Fig {{n}}.&quot;,</span></span>
+<span id="L64"><span class="lineNum">      64</span> <span class="tlaGNC">          22 :   &quot;common.faq&quot;: &quot;FAQ&quot;,</span></span>
+<span id="L65"><span class="lineNum">      65</span> <span class="tlaGNC">          35 :   &quot;common.learnMore&quot;: &quot;Saiba mais&quot;,</span></span>
+<span id="L66"><span class="lineNum">      66</span>              : </span>
+<span id="L67"><span class="lineNum">      67</span> <span class="tlaGNC">          43 :   &quot;error.invalidPlan&quot;: &quot;Plano inválido&quot;,</span></span>
+<span id="L68"><span class="lineNum">      68</span> <span class="tlaGNC">          67 :   &quot;error.workspaceRequired&quot;: &quot;ID do workspace é obrigatório&quot;,</span></span>
+<span id="L69"><span class="lineNum">      69</span> <span class="tlaGNC">          74 :   &quot;error.alreadySubscribed&quot;: &quot;Este workspace já possui uma assinatura&quot;,</span></span>
+<span id="L70"><span class="lineNum">      70</span> <span class="tlaGNC">          55 :   &quot;error.limitRequired&quot;: &quot;Limite é obrigatório.&quot;,</span></span>
+<span id="L71"><span class="lineNum">      71</span> <span class="tlaGNC">          68 :   &quot;error.monthlyLimitInvalid&quot;: &quot;Defina um limite mensal válido.&quot;,</span></span>
+<span id="L72"><span class="lineNum">      72</span> <span class="tlaGNC">          74 :   &quot;error.workspaceNameRequired&quot;: &quot;Nome do workspace é obrigatório.&quot;,</span></span>
+<span id="L73"><span class="lineNum">      73</span> <span class="tlaGNC">          66 :   &quot;error.nameTooLong&quot;: &quot;O nome deve ter 255 caracteres ou menos.&quot;,</span></span>
+<span id="L74"><span class="lineNum">      74</span> <span class="tlaGNC">          54 :   &quot;error.emailRequired&quot;: &quot;E-mail é obrigatório&quot;,</span></span>
+<span id="L75"><span class="lineNum">      75</span> <span class="tlaGNC">          59 :   &quot;error.roleRequired&quot;: &quot;Função é obrigatória&quot;,</span></span>
+<span id="L76"><span class="lineNum">      76</span> <span class="tlaGNC">          47 :   &quot;error.idRequired&quot;: &quot;ID é obrigatório&quot;,</span></span>
+<span id="L77"><span class="lineNum">      77</span> <span class="tlaGNC">          51 :   &quot;error.nameRequired&quot;: &quot;Nome é obrigatório&quot;,</span></span>
+<span id="L78"><span class="lineNum">      78</span> <span class="tlaGNC">          59 :   &quot;error.providerRequired&quot;: &quot;Provedor é obrigatório&quot;,</span></span>
+<span id="L79"><span class="lineNum">      79</span> <span class="tlaGNC">          61 :   &quot;error.apiKeyRequired&quot;: &quot;Chave de API é obrigatória&quot;,</span></span>
+<span id="L80"><span class="lineNum">      80</span> <span class="tlaGNC">          54 :   &quot;error.modelRequired&quot;: &quot;Modelo é obrigatório&quot;,</span></span>
+<span id="L81"><span class="lineNum">      81</span> <span class="tlaGNC">          83 :   &quot;error.reloadAmountMin&quot;: &quot;O valor de recarga deve ser de pelo menos ${{amount}}&quot;,</span></span>
+<span id="L82"><span class="lineNum">      82</span> <span class="tlaGNC">          84 :   &quot;error.reloadTriggerMin&quot;: &quot;O gatilho de saldo deve ser de pelo menos ${{amount}}&quot;,</span></span>
+<span id="L83"><span class="lineNum">      83</span>              : </span>
+<span id="L84"><span class="lineNum">      84</span> <span class="tlaGNC">          90 :   &quot;app.meta.description&quot;: &quot;OpenCode - O agente de codificação de código aberto.&quot;,</span></span>
+<span id="L85"><span class="lineNum">      85</span>              : </span>
+<span id="L86"><span class="lineNum">      86</span> <span class="tlaGNC">          86 :   &quot;home.title&quot;: &quot;OpenCode | O agente de codificação de código aberto com IA&quot;,</span></span>
+<span id="L87"><span class="lineNum">      87</span>              : </span>
+<span id="L88"><span class="lineNum">      88</span> <span class="tlaGNC">          86 :   &quot;temp.title&quot;: &quot;opencode | Agente de codificação com IA feito para o terminal&quot;,</span></span>
+<span id="L89"><span class="lineNum">      89</span> <span class="tlaGNC">          82 :   &quot;temp.hero.title&quot;: &quot;O agente de codificação com IA feito para o terminal&quot;,</span></span>
+<span id="L90"><span class="lineNum">      90</span> <span class="tlaGNC">          29 :   &quot;temp.zen&quot;: &quot;opencode zen&quot;,</span></span>
+<span id="L91"><span class="lineNum">      91</span> <span class="tlaGNC">          34 :   &quot;temp.getStarted&quot;: &quot;Começar&quot;,</span></span>
+<span id="L92"><span class="lineNum">      92</span> <span class="tlaGNC">          44 :   &quot;temp.feature.native.title&quot;: &quot;TUI Nativa&quot;,</span></span>
+<span id="L93"><span class="lineNum">      93</span> <span class="tlaGNC">          97 :   &quot;temp.feature.native.body&quot;: &quot;Uma interface de terminal responsiva, nativa e personalizável&quot;,</span></span>
+<span id="L94"><span class="lineNum">      94</span> <span class="tlaGNC">          39 :   &quot;temp.feature.zen.beforeLink&quot;: &quot;Uma&quot;,</span></span>
+<span id="L95"><span class="lineNum">      95</span> <span class="tlaGNC">          58 :   &quot;temp.feature.zen.link&quot;: &quot;lista selecionada de modelos&quot;,</span></span>
+<span id="L96"><span class="lineNum">      96</span> <span class="tlaGNC">          58 :   &quot;temp.feature.zen.afterLink&quot;: &quot;fornecida pela opencode&quot;,</span></span>
+<span id="L97"><span class="lineNum">      97</span> <span class="tlaGNC">          89 :   &quot;temp.feature.models.beforeLink&quot;: &quot;Suporta mais de 75 provedores de LLM através do&quot;,</span></span>
+<span id="L98"><span class="lineNum">      98</span> <span class="tlaGNC">          64 :   &quot;temp.feature.models.afterLink&quot;: &quot;, incluindo modelos locais&quot;,</span></span>
+<span id="L99"><span class="lineNum">      99</span> <span class="tlaGNC">          66 :   &quot;temp.screenshot.caption&quot;: &quot;OpenCode TUI com o tema tokyonight&quot;,</span></span>
+<span id="L100"><span class="lineNum">     100</span> <span class="tlaGNC">          60 :   &quot;temp.screenshot.alt&quot;: &quot;OpenCode TUI com tema tokyonight&quot;,</span></span>
+<span id="L101"><span class="lineNum">     101</span> <span class="tlaGNC">          45 :   &quot;temp.logoLightAlt&quot;: &quot;logo opencode claro&quot;,</span></span>
+<span id="L102"><span class="lineNum">     102</span> <span class="tlaGNC">          45 :   &quot;temp.logoDarkAlt&quot;: &quot;logo opencode escuro&quot;,</span></span>
+<span id="L103"><span class="lineNum">     103</span>              : </span>
+<span id="L104"><span class="lineNum">     104</span> <span class="tlaGNC">          30 :   &quot;home.banner.badge&quot;: &quot;Novo&quot;,</span></span>
+<span id="L105"><span class="lineNum">     105</span> <span class="tlaGNC">          59 :   &quot;home.banner.text&quot;: &quot;Conheça as abas no app desktop.&quot;,</span></span>
+<span id="L106"><span class="lineNum">     106</span> <span class="tlaGNC">          69 :   &quot;home.banner.platforms&quot;: &quot;Disponível no macOS, Windows e Linux&quot;,</span></span>
+<span id="L107"><span class="lineNum">     107</span> <span class="tlaGNC">          44 :   &quot;home.banner.downloadNow&quot;: &quot;Baixar agora&quot;,</span></span>
+<span id="L108"><span class="lineNum">     108</span> <span class="tlaGNC">          65 :   &quot;home.banner.downloadBetaNow&quot;: &quot;Baixe agora o beta do desktop&quot;,</span></span>
+<span id="L109"><span class="lineNum">     109</span> <span class="tlaGNC">          58 :   &quot;home.promo.title&quot;: &quot;Conheça as abas no app desktop&quot;,</span></span>
+<span id="L110"><span class="lineNum">     110</span> <span class="tlaGNC">          80 :   &quot;home.promo.body&quot;: &quot;Organize seu trabalho e suas sessões ativas com abas.&quot;,</span></span>
+<span id="L111"><span class="lineNum">     111</span> <span class="tlaGNC">          70 :   &quot;home.promo.cta&quot;: &quot;Baixe a versão mais recente para começar.&quot;,</span></span>
+<span id="L112"><span class="lineNum">     112</span> <span class="tlaGNC">          57 :   &quot;home.promo.close&quot;: &quot;Fechar anúncio do app desktop&quot;,</span></span>
+<span id="L113"><span class="lineNum">     113</span>              : </span>
+<span id="L114"><span class="lineNum">     114</span> <span class="tlaGNC">          80 :   &quot;home.hero.title&quot;: &quot;O agente de codificação de código aberto com IA&quot;,</span></span>
+<span id="L115"><span class="lineNum">     115</span> <span class="tlaGNC">         108 :   &quot;home.hero.subtitle.a&quot;: &quot;Modelos grátis incluídos ou conecte qualquer modelo de qualquer provedor,&quot;,</span></span>
+<span id="L116"><span class="lineNum">     116</span> <span class="tlaGNC">          66 :   &quot;home.hero.subtitle.b&quot;: &quot;incluindo Claude, GPT, Gemini e mais.&quot;,</span></span>
+<span id="L117"><span class="lineNum">     117</span>              : </span>
+<span id="L118"><span class="lineNum">     118</span> <span class="tlaGNC">          63 :   &quot;home.install.ariaLabel&quot;: &quot;Opções de instalação&quot;,</span></span>
+<span id="L119"><span class="lineNum">     119</span>              : </span>
+<span id="L120"><span class="lineNum">     120</span> <span class="tlaGNC">          44 :   &quot;home.what.title&quot;: &quot;O que é OpenCode?&quot;,</span></span>
+<span id="L121"><span class="lineNum">     121</span> <span class="tlaGNC">          18 :   &quot;home.what.body&quot;:</span></span>
+<span id="L122"><span class="lineNum">     122</span> <span class="tlaGNC">         120 :     &quot;OpenCode é um agente de código aberto que ajuda você a escrever código no seu terminal, IDE ou desktop.&quot;,</span></span>
+<span id="L123"><span class="lineNum">     123</span> <span class="tlaGNC">          42 :   &quot;home.what.lsp.title&quot;: &quot;LSP habilitado&quot;,</span></span>
+<span id="L124"><span class="lineNum">     124</span> <span class="tlaGNC">          76 :   &quot;home.what.lsp.body&quot;: &quot;Carrega automaticamente os LSPs certos para o LLM&quot;,</span></span>
+<span id="L125"><span class="lineNum">     125</span> <span class="tlaGNC">          52 :   &quot;home.what.multiSession.title&quot;: &quot;Multissessão&quot;,</span></span>
+<span id="L126"><span class="lineNum">     126</span> <span class="tlaGNC">          89 :   &quot;home.what.multiSession.body&quot;: &quot;Inicie vários agentes em paralelo no mesmo projeto&quot;,</span></span>
+<span id="L127"><span class="lineNum">     127</span> <span class="tlaGNC">          59 :   &quot;home.what.shareLinks.title&quot;: &quot;Links compartilháveis&quot;,</span></span>
+<span id="L128"><span class="lineNum">     128</span> <span class="tlaGNC">         115 :   &quot;home.what.shareLinks.body&quot;: &quot;Compartilhe um link para qualquer sessão para referência ou depuração&quot;,</span></span>
+<span id="L129"><span class="lineNum">     129</span> <span class="tlaGNC">          46 :   &quot;home.what.copilot.title&quot;: &quot;GitHub Copilot&quot;,</span></span>
+<span id="L130"><span class="lineNum">     130</span> <span class="tlaGNC">          80 :   &quot;home.what.copilot.body&quot;: &quot;Entre com o GitHub para usar sua conta do Copilot&quot;,</span></span>
+<span id="L131"><span class="lineNum">     131</span> <span class="tlaGNC">          52 :   &quot;home.what.chatgptPlus.title&quot;: &quot;ChatGPT Plus/Pro&quot;,</span></span>
+<span id="L132"><span class="lineNum">     132</span> <span class="tlaGNC">          96 :   &quot;home.what.chatgptPlus.body&quot;: &quot;Entre com a OpenAI para usar sua conta do ChatGPT Plus ou Pro&quot;,</span></span>
+<span id="L133"><span class="lineNum">     133</span> <span class="tlaGNC">          48 :   &quot;home.what.anyModel.title&quot;: &quot;Qualquer modelo&quot;,</span></span>
+<span id="L134"><span class="lineNum">     134</span> <span class="tlaGNC">         101 :   &quot;home.what.anyModel.body&quot;: &quot;Mais de 75 provedores de LLM via Models.dev, incluindo modelos locais&quot;,</span></span>
+<span id="L135"><span class="lineNum">     135</span> <span class="tlaGNC">          49 :   &quot;home.what.anyEditor.title&quot;: &quot;Qualquer editor&quot;,</span></span>
+<span id="L136"><span class="lineNum">     136</span> <span class="tlaGNC">         107 :   &quot;home.what.anyEditor.body&quot;: &quot;Disponível como interface de terminal, app desktop e extensão de IDE&quot;,</span></span>
+<span id="L137"><span class="lineNum">     137</span> <span class="tlaGNC">          49 :   &quot;home.what.readDocs&quot;: &quot;Ler documentação&quot;,</span></span>
+<span id="L138"><span class="lineNum">     138</span>              : </span>
+<span id="L139"><span class="lineNum">     139</span> <span class="tlaGNC">          82 :   &quot;home.growth.title&quot;: &quot;O agente de codificação de código aberto com IA&quot;,</span></span>
+<span id="L140"><span class="lineNum">     140</span> <span class="tlaGNC">          20 :   &quot;home.growth.body&quot;:</span></span>
+<span id="L141"><span class="lineNum">     141</span> <span class="tlaGNC">         268 :     &quot;Com mais de &lt;strong&gt;{{stars}}&lt;/strong&gt; estrelas no GitHub, &lt;strong&gt;{{contributors}}&lt;/strong&gt; colaboradores e mais de &lt;strong&gt;{{commits}}&lt;/strong&gt; commits, OpenCode é usado e confiado por mais de &lt;strong&gt;{{monthlyUsers}}&lt;/strong&gt; desenvolvedores todos os meses.&quot;,</span></span>
+<span id="L142"><span class="lineNum">     142</span> <span class="tlaGNC">          50 :   &quot;home.growth.githubStars&quot;: &quot;Estrelas no GitHub&quot;,</span></span>
+<span id="L143"><span class="lineNum">     143</span> <span class="tlaGNC">          46 :   &quot;home.growth.contributors&quot;: &quot;Colaboradores&quot;,</span></span>
+<span id="L144"><span class="lineNum">     144</span> <span class="tlaGNC">          44 :   &quot;home.growth.monthlyDevs&quot;: &quot;Devs mensais&quot;,</span></span>
+<span id="L145"><span class="lineNum">     145</span>              : </span>
+<span id="L146"><span class="lineNum">     146</span> <span class="tlaGNC">          66 :   &quot;home.privacy.title&quot;: &quot;Feito com privacidade em primeiro lugar&quot;,</span></span>
+<span id="L147"><span class="lineNum">     147</span> <span class="tlaGNC">          21 :   &quot;home.privacy.body&quot;:</span></span>
+<span id="L148"><span class="lineNum">     148</span> <span class="tlaGNC">         139 :     &quot;OpenCode não armazena nenhum código seu nem dados de contexto, para que possa operar em ambientes sensíveis à privacidade.&quot;,</span></span>
+<span id="L149"><span class="lineNum">     149</span> <span class="tlaGNC">          47 :   &quot;home.privacy.learnMore&quot;: &quot;Saiba mais sobre&quot;,</span></span>
+<span id="L150"><span class="lineNum">     150</span> <span class="tlaGNC">          37 :   &quot;home.privacy.link&quot;: &quot;privacidade&quot;,</span></span>
+<span id="L151"><span class="lineNum">     151</span>              : </span>
+<span id="L152"><span class="lineNum">     152</span> <span class="tlaGNC">          40 :   &quot;home.faq.q1&quot;: &quot;O que é OpenCode?&quot;,</span></span>
+<span id="L153"><span class="lineNum">     153</span> <span class="tlaGNC">          15 :   &quot;home.faq.a1&quot;:</span></span>
+<span id="L154"><span class="lineNum">     154</span> <span class="tlaGNC">         210 :     &quot;OpenCode é um agente de código aberto que ajuda você a escrever e executar código com qualquer modelo de IA. Está disponível como interface de terminal, app desktop ou extensão de IDE.&quot;,</span></span>
+<span id="L155"><span class="lineNum">     155</span> <span class="tlaGNC">          43 :   &quot;home.faq.q2&quot;: &quot;Como eu uso o OpenCode?&quot;,</span></span>
+<span id="L156"><span class="lineNum">     156</span> <span class="tlaGNC">          75 :   &quot;home.faq.a2.before&quot;: &quot;A maneira mais fácil de começar é ler a&quot;,</span></span>
+<span id="L157"><span class="lineNum">     157</span> <span class="tlaGNC">          41 :   &quot;home.faq.a2.link&quot;: &quot;introdução&quot;,</span></span>
+<span id="L158"><span class="lineNum">     158</span> <span class="tlaGNC">          77 :   &quot;home.faq.q3&quot;: &quot;Preciso de assinaturas extras de IA para usar o OpenCode?&quot;,</span></span>
+<span id="L159"><span class="lineNum">     159</span> <span class="tlaGNC">          18 :   &quot;home.faq.a3.p1&quot;:</span></span>
+<span id="L160"><span class="lineNum">     160</span> <span class="tlaGNC">         117 :     &quot;Não necessariamente, OpenCode vem com um conjunto de modelos grátis que você pode usar sem criar conta.&quot;,</span></span>
+<span id="L161"><span class="lineNum">     161</span> <span class="tlaGNC">          28 :   &quot;home.faq.a3.p2.beforeZen&quot;:</span></span>
+<span id="L162"><span class="lineNum">     162</span> <span class="tlaGNC">         110 :     &quot;Além disso, você pode usar qualquer um dos modelos de codificação populares criando uma conta&quot;,</span></span>
+<span id="L163"><span class="lineNum">     163</span> <span class="tlaGNC">          33 :   &quot;home.faq.a3.p2.afterZen&quot;: &quot;.&quot;,</span></span>
+<span id="L164"><span class="lineNum">     164</span> <span class="tlaGNC">          18 :   &quot;home.faq.a3.p3&quot;:</span></span>
+<span id="L165"><span class="lineNum">     165</span> <span class="tlaGNC">         149 :     &quot;Embora incentivemos os usuários a usar o Zen, OpenCode também funciona com todos os provedores populares, como OpenAI, Anthropic, xAI etc.&quot;,</span></span>
+<span id="L166"><span class="lineNum">     166</span> <span class="tlaGNC">          68 :   &quot;home.faq.a3.p4.beforeLocal&quot;: &quot;Você pode até conectar seus&quot;,</span></span>
+<span id="L167"><span class="lineNum">     167</span> <span class="tlaGNC">          47 :   &quot;home.faq.a3.p4.localLink&quot;: &quot;modelos locais&quot;,</span></span>
+<span id="L168"><span class="lineNum">     168</span> <span class="tlaGNC">          82 :   &quot;home.faq.q4&quot;: &quot;Posso usar minhas assinaturas de IA existentes com o OpenCode?&quot;,</span></span>
+<span id="L169"><span class="lineNum">     169</span> <span class="tlaGNC">          18 :   &quot;home.faq.a4.p1&quot;:</span></span>
+<span id="L170"><span class="lineNum">     170</span> <span class="tlaGNC">         169 :     &quot;Sim, OpenCode suporta planos de assinatura de todos os principais provedores. Você pode usar suas assinaturas Claude Pro/Max, ChatGPT Plus/Pro ou GitHub Copilot.&quot;,</span></span>
+<span id="L171"><span class="lineNum">     171</span> <span class="tlaGNC">          61 :   &quot;home.faq.q5&quot;: &quot;Posso usar o OpenCode apenas no terminal?&quot;,</span></span>
+<span id="L172"><span class="lineNum">     172</span> <span class="tlaGNC">         106 :   &quot;home.faq.a5.beforeDesktop&quot;: &quot;Não mais! OpenCode agora está disponível como um app para o seu&quot;,</span></span>
+<span id="L173"><span class="lineNum">     173</span> <span class="tlaGNC">          35 :   &quot;home.faq.a5.desktop&quot;: &quot;desktop&quot;,</span></span>
+<span id="L174"><span class="lineNum">     174</span> <span class="tlaGNC">          25 :   &quot;home.faq.a5.and&quot;: &quot;e&quot;,</span></span>
+<span id="L175"><span class="lineNum">     175</span> <span class="tlaGNC">          27 :   &quot;home.faq.a5.web&quot;: &quot;web&quot;,</span></span>
+<span id="L176"><span class="lineNum">     176</span> <span class="tlaGNC">          44 :   &quot;home.faq.q6&quot;: &quot;Quanto custa o OpenCode?&quot;,</span></span>
+<span id="L177"><span class="lineNum">     177</span> <span class="tlaGNC">          15 :   &quot;home.faq.a6&quot;:</span></span>
+<span id="L178"><span class="lineNum">     178</span> <span class="tlaGNC">         173 :     &quot;OpenCode é 100% gratuito para usar. Ele também vem com um conjunto de modelos gratuitos. Pode haver custos adicionais se você conectar qualquer outro provedor.&quot;,</span></span>
+<span id="L179"><span class="lineNum">     179</span> <span class="tlaGNC">          48 :   &quot;home.faq.q7&quot;: &quot;E sobre dados e privacidade?&quot;,</span></span>
+<span id="L180"><span class="lineNum">     180</span> <span class="tlaGNC">          18 :   &quot;home.faq.a7.p1&quot;:</span></span>
+<span id="L181"><span class="lineNum">     181</span> <span class="tlaGNC">         138 :     &quot;Seus dados e informações só são armazenados quando você usa nossos modelos gratuitos ou cria links compartilháveis.&quot;,</span></span>
+<span id="L182"><span class="lineNum">     182</span> <span class="tlaGNC">          52 :   &quot;home.faq.a7.p2.beforeModels&quot;: &quot;Saiba mais sobre&quot;,</span></span>
+<span id="L183"><span class="lineNum">     183</span> <span class="tlaGNC">          48 :   &quot;home.faq.a7.p2.modelsLink&quot;: &quot;nossos modelos&quot;,</span></span>
+<span id="L184"><span class="lineNum">     184</span> <span class="tlaGNC">          28 :   &quot;home.faq.a7.p2.and&quot;: &quot;e&quot;,</span></span>
+<span id="L185"><span class="lineNum">     185</span> <span class="tlaGNC">          63 :   &quot;home.faq.a7.p2.shareLink&quot;: &quot;páginas de compartilhamento&quot;,</span></span>
+<span id="L186"><span class="lineNum">     186</span> <span class="tlaGNC">          51 :   &quot;home.faq.q8&quot;: &quot;OpenCode é código aberto?&quot;,</span></span>
+<span id="L187"><span class="lineNum">     187</span> <span class="tlaGNC">         102 :   &quot;home.faq.a8.p1&quot;: &quot;Sim, OpenCode é totalmente open source. O código-fonte é público no&quot;,</span></span>
+<span id="L188"><span class="lineNum">     188</span> <span class="tlaGNC">          28 :   &quot;home.faq.a8.p2&quot;: &quot;sob a&quot;,</span></span>
+<span id="L189"><span class="lineNum">     189</span> <span class="tlaGNC">          45 :   &quot;home.faq.a8.mitLicense&quot;: &quot;Licença MIT&quot;,</span></span>
+<span id="L190"><span class="lineNum">     190</span> <span class="tlaGNC">          18 :   &quot;home.faq.a8.p3&quot;:</span></span>
+<span id="L191"><span class="lineNum">     191</span> <span class="tlaGNC">         204 :     &quot;, o que significa que qualquer pessoa pode usar, modificar ou contribuir para o seu desenvolvimento. Qualquer pessoa da comunidade pode abrir issues, enviar pull requests e estender a funcionalidade.&quot;,</span></span>
+<span id="L192"><span class="lineNum">     192</span>              : </span>
+<span id="L193"><span class="lineNum">     193</span> <span class="tlaGNC">         101 :   &quot;home.zenCta.title&quot;: &quot;Acesse modelos confiáveis e otimizados para agentes de codificação&quot;,</span></span>
+<span id="L194"><span class="lineNum">     194</span> <span class="tlaGNC">          20 :   &quot;home.zenCta.body&quot;:</span></span>
+<span id="L195"><span class="lineNum">     195</span> <span class="tlaGNC">         274 :     &quot;O Zen dá acesso a um conjunto selecionado de modelos de IA que a OpenCode testou e avaliou especificamente para agentes de codificação. Não precisa se preocupar com desempenho e qualidade inconsistentes entre provedores, use modelos validados que funcionam.&quot;,</span></span>
+<span id="L196"><span class="lineNum">     196</span> <span class="tlaGNC">          47 :   &quot;home.zenCta.link&quot;: &quot;Saiba mais sobre o Zen&quot;,</span></span>
+<span id="L197"><span class="lineNum">     197</span>              : </span>
+<span id="L198"><span class="lineNum">     198</span> <span class="tlaGNC">         128 :   &quot;zen.title&quot;: &quot;OpenCode Zen | Um conjunto selecionado de modelos confiáveis e otimizados para agentes de codificação&quot;,</span></span>
+<span id="L199"><span class="lineNum">     199</span> <span class="tlaGNC">          91 :   &quot;zen.hero.title&quot;: &quot;Modelos confiáveis e otimizados para agentes de codificação&quot;,</span></span>
+<span id="L200"><span class="lineNum">     200</span> <span class="tlaGNC">          17 :   &quot;zen.hero.body&quot;:</span></span>
+<span id="L201"><span class="lineNum">     201</span> <span class="tlaGNC">         257 :     &quot;O Zen dá acesso a um conjunto selecionado de modelos de IA que a OpenCode testou e avaliou especificamente para agentes de codificação. Não precisa se preocupar com desempenho e qualidade inconsistentes, use modelos validados que funcionam.&quot;,</span></span>
+<span id="L202"><span class="lineNum">     202</span>              : </span>
+<span id="L203"><span class="lineNum">     203</span> <span class="tlaGNC">          43 :   &quot;zen.faq.q1&quot;: &quot;O que é OpenCode Zen?&quot;,</span></span>
+<span id="L204"><span class="lineNum">     204</span> <span class="tlaGNC">          14 :   &quot;zen.faq.a1&quot;:</span></span>
+<span id="L205"><span class="lineNum">     205</span> <span class="tlaGNC">         154 :     &quot;Zen é um conjunto selecionado de modelos de IA testados e avaliados para agentes de codificação, criado pela equipe por trás do OpenCode.&quot;,</span></span>
+<span id="L206"><span class="lineNum">     206</span> <span class="tlaGNC">          50 :   &quot;zen.faq.q2&quot;: &quot;O que torna o Zen mais preciso?&quot;,</span></span>
+<span id="L207"><span class="lineNum">     207</span> <span class="tlaGNC">          14 :   &quot;zen.faq.a2&quot;:</span></span>
+<span id="L208"><span class="lineNum">     208</span> <span class="tlaGNC">         220 :     &quot;O Zen fornece apenas modelos que foram especificamente testados e avaliados para agentes de codificação. Você não usaria uma faca de manteiga para cortar um bife, não use modelos ruins para programar.&quot;,</span></span>
+<span id="L209"><span class="lineNum">     209</span> <span class="tlaGNC">          42 :   &quot;zen.faq.q3&quot;: &quot;O Zen é mais barato?&quot;,</span></span>
+<span id="L210"><span class="lineNum">     210</span> <span class="tlaGNC">          14 :   &quot;zen.faq.a3&quot;:</span></span>
+<span id="L211"><span class="lineNum">     211</span> <span class="tlaGNC">         205 :     &quot;O Zen não tem fins lucrativos. O Zen repassa os custos dos provedores de modelos para você. Quanto maior o uso do Zen, mais a OpenCode pode negociar melhores taxas e repassá-las para você.&quot;,</span></span>
+<span id="L212"><span class="lineNum">     212</span> <span class="tlaGNC">          38 :   &quot;zen.faq.q4&quot;: &quot;Quanto custa o Zen?&quot;,</span></span>
+<span id="L213"><span class="lineNum">     213</span> <span class="tlaGNC">          39 :   &quot;zen.faq.a4.p1.beforePricing&quot;: &quot;Zen&quot;,</span></span>
+<span id="L214"><span class="lineNum">     214</span> <span class="tlaGNC">          60 :   &quot;zen.faq.a4.p1.pricingLink&quot;: &quot;cobra por requisição&quot;,</span></span>
+<span id="L215"><span class="lineNum">     215</span> <span class="tlaGNC">         123 :   &quot;zen.faq.a4.p1.afterPricing&quot;: &quot;sem margens de lucro, então você paga exatamente o que o provedor do modelo cobra.&quot;,</span></span>
+<span id="L216"><span class="lineNum">     216</span> <span class="tlaGNC">         123 :   &quot;zen.faq.a4.p2.beforeAccount&quot;: &quot;Seu custo total depende do uso, e você pode definir limites de gastos mensais em sua&quot;,</span></span>
+<span id="L217"><span class="lineNum">     217</span> <span class="tlaGNC">          39 :   &quot;zen.faq.a4.p2.accountLink&quot;: &quot;conta&quot;,</span></span>
+<span id="L218"><span class="lineNum">     218</span> <span class="tlaGNC">          17 :   &quot;zen.faq.a4.p3&quot;:</span></span>
+<span id="L219"><span class="lineNum">     219</span> <span class="tlaGNC">         127 :     &quot;Para cobrir custos, a OpenCode adiciona apenas uma pequena taxa de processamento de pagamento de $1,23 por recarga de $20.&quot;,</span></span>
+<span id="L220"><span class="lineNum">     220</span> <span class="tlaGNC">          47 :   &quot;zen.faq.q5&quot;: &quot;E sobre dados e privacidade?&quot;,</span></span>
+<span id="L221"><span class="lineNum">     221</span> <span class="tlaGNC">          31 :   &quot;zen.faq.a5.beforeExceptions&quot;:</span></span>
+<span id="L222"><span class="lineNum">     222</span> <span class="tlaGNC">         173 :     &quot;Todos os modelos Zen são hospedados nos EUA. Os provedores seguem uma política de retenção zero e não usam seus dados para treinamento de modelos, com as&quot;,</span></span>
+<span id="L223"><span class="lineNum">     223</span> <span class="tlaGNC">          58 :   &quot;zen.faq.a5.exceptionsLink&quot;: &quot;seguintes exceções&quot;,</span></span>
+<span id="L224"><span class="lineNum">     224</span> <span class="tlaGNC">          51 :   &quot;zen.faq.q6&quot;: &quot;Posso definir limites de gastos?&quot;,</span></span>
+<span id="L225"><span class="lineNum">     225</span> <span class="tlaGNC">          84 :   &quot;zen.faq.a6&quot;: &quot;Sim, você pode definir limites de gastos mensais em sua conta.&quot;,</span></span>
+<span id="L226"><span class="lineNum">     226</span> <span class="tlaGNC">          34 :   &quot;zen.faq.q7&quot;: &quot;Posso cancelar?&quot;,</span></span>
+<span id="L227"><span class="lineNum">     227</span> <span class="tlaGNC">         106 :   &quot;zen.faq.a7&quot;: &quot;Sim, você pode desativar o faturamento a qualquer momento e usar seu saldo restante.&quot;,</span></span>
+<span id="L228"><span class="lineNum">     228</span> <span class="tlaGNC">          76 :   &quot;zen.faq.q8&quot;: &quot;Posso usar o Zen com outros agentes de codificação?&quot;,</span></span>
+<span id="L229"><span class="lineNum">     229</span> <span class="tlaGNC">          14 :   &quot;zen.faq.a8&quot;:</span></span>
+<span id="L230"><span class="lineNum">     230</span> <span class="tlaGNC">         190 :     &quot;Embora o Zen funcione muito bem com o OpenCode, você pode usar o Zen com qualquer agente. Siga as instruções de configuração no seu agente de codificação preferido.&quot;,</span></span>
+<span id="L231"><span class="lineNum">     231</span>              : </span>
+<span id="L232"><span class="lineNum">     232</span> <span class="tlaGNC">          38 :   &quot;zen.cta.start&quot;: &quot;Comece com o Zen&quot;,</span></span>
+<span id="L233"><span class="lineNum">     233</span> <span class="tlaGNC">          60 :   &quot;zen.pricing.title&quot;: &quot;Adicionar $20 de saldo pré-pago&quot;,</span></span>
+<span id="L234"><span class="lineNum">     234</span> <span class="tlaGNC">          67 :   &quot;zen.pricing.fee&quot;: &quot;(+$1,23 taxa de processamento do cartão)&quot;,</span></span>
+<span id="L235"><span class="lineNum">     235</span> <span class="tlaGNC">         111 :   &quot;zen.pricing.body&quot;: &quot;Use com qualquer agente. Defina limites de gastos mensais. Cancele a qualquer momento.&quot;,</span></span>
+<span id="L236"><span class="lineNum">     236</span> <span class="tlaGNC">          53 :   &quot;zen.problem.title&quot;: &quot;Que problema o Zen resolve?&quot;,</span></span>
+<span id="L237"><span class="lineNum">     237</span> <span class="tlaGNC">          20 :   &quot;zen.problem.body&quot;:</span></span>
+<span id="L238"><span class="lineNum">     238</span> <span class="tlaGNC">         194 :     &quot;Existem muitos modelos disponíveis, mas apenas alguns funcionam bem com agentes de codificação. A maioria dos provedores os configura de maneira diferente, com resultados variados.&quot;,</span></span>
+<span id="L239"><span class="lineNum">     239</span> <span class="tlaGNC">         111 :   &quot;zen.problem.subtitle&quot;: &quot;Estamos corrigindo isso para todos, não apenas para os usuários do OpenCode.&quot;,</span></span>
+<span id="L240"><span class="lineNum">     240</span> <span class="tlaGNC">          82 :   &quot;zen.problem.item1&quot;: &quot;Testando modelos selecionados e consultando suas equipes&quot;,</span></span>
+<span id="L241"><span class="lineNum">     241</span> <span class="tlaGNC">          99 :   &quot;zen.problem.item2&quot;: &quot;Trabalhando com provedores para garantir que sejam entregues corretamente&quot;,</span></span>
+<span id="L242"><span class="lineNum">     242</span> <span class="tlaGNC">          98 :   &quot;zen.problem.item3&quot;: &quot;Avaliando todas as combinações de modelo-provedor que recomendamos&quot;,</span></span>
+<span id="L243"><span class="lineNum">     243</span> <span class="tlaGNC">          41 :   &quot;zen.how.title&quot;: &quot;Como o Zen funciona&quot;,</span></span>
+<span id="L244"><span class="lineNum">     244</span> <span class="tlaGNC">         119 :   &quot;zen.how.body&quot;: &quot;Embora sugerimos que você use o Zen com o OpenCode, você pode usá-lo com qualquer agente.&quot;,</span></span>
+<span id="L245"><span class="lineNum">     245</span> <span class="tlaGNC">          63 :   &quot;zen.how.step1.title&quot;: &quot;Cadastre-se e adicione $20 de saldo&quot;,</span></span>
+<span id="L246"><span class="lineNum">     246</span> <span class="tlaGNC">          40 :   &quot;zen.how.step1.beforeLink&quot;: &quot;siga as&quot;,</span></span>
+<span id="L247"><span class="lineNum">     247</span> <span class="tlaGNC">          65 :   &quot;zen.how.step1.link&quot;: &quot;instruções de configuração&quot;,</span></span>
+<span id="L248"><span class="lineNum">     248</span> <span class="tlaGNC">          65 :   &quot;zen.how.step2.title&quot;: &quot;Use o Zen com preços transparentes&quot;,</span></span>
+<span id="L249"><span class="lineNum">     249</span> <span class="tlaGNC">          53 :   &quot;zen.how.step2.link&quot;: &quot;pague por requisição&quot;,</span></span>
+<span id="L250"><span class="lineNum">     250</span> <span class="tlaGNC">          52 :   &quot;zen.how.step2.afterLink&quot;: &quot;sem margens de lucro&quot;,</span></span>
+<span id="L251"><span class="lineNum">     251</span> <span class="tlaGNC">          49 :   &quot;zen.how.step3.title&quot;: &quot;Recarga automática&quot;,</span></span>
+<span id="L252"><span class="lineNum">     252</span> <span class="tlaGNC">          89 :   &quot;zen.how.step3.body&quot;: &quot;quando seu saldo atingir $5, adicionaremos automaticamente $20&quot;,</span></span>
+<span id="L253"><span class="lineNum">     253</span> <span class="tlaGNC">          69 :   &quot;zen.privacy.title&quot;: &quot;Sua privacidade é importante para nós&quot;,</span></span>
+<span id="L254"><span class="lineNum">     254</span> <span class="tlaGNC">          32 :   &quot;zen.privacy.beforeExceptions&quot;:</span></span>
+<span id="L255"><span class="lineNum">     255</span> <span class="tlaGNC">         172 :     &quot;Todos os modelos Zen são hospedados nos EUA. Os provedores seguem uma política de retenção zero e não usam seus dados para treinamento de modelo, com as&quot;,</span></span>
+<span id="L256"><span class="lineNum">     256</span> <span class="tlaGNC">          59 :   &quot;zen.privacy.exceptionsLink&quot;: &quot;seguintes exceções&quot;,</span></span>
+<span id="L257"><span class="lineNum">     257</span>              : </span>
+<span id="L258"><span class="lineNum">     258</span> <span class="tlaGNC">          85 :   &quot;go.title&quot;: &quot;OpenCode Go | Modelos de codificação de baixo custo para todos&quot;,</span></span>
+<span id="L259"><span class="lineNum">     259</span> <span class="tlaGNC">          89 :   &quot;go.banner.text&quot;: &quot;DeepSeek V4 Flash tem limites de uso 2x maiores por tempo limitado&quot;,</span></span>
+<span id="L260"><span class="lineNum">     260</span> <span class="tlaGNC">          23 :   &quot;go.meta.description&quot;:</span></span>
+<span id="L261"><span class="lineNum">     261</span> <span class="tlaGNC">         160 :     &quot;O Go começa em $5 no primeiro mês, depois $10/mês, com limites generosos de uso e acesso confiável aos principais modelos de codificação.&quot;,</span></span>
+<span id="L262"><span class="lineNum">     262</span> <span class="tlaGNC">          76 :   &quot;go.hero.title&quot;: &quot;Modelos de codificação de baixo custo para todos&quot;,</span></span>
+<span id="L263"><span class="lineNum">     263</span> <span class="tlaGNC">          16 :   &quot;go.hero.body&quot;:</span></span>
+<span id="L264"><span class="lineNum">     264</span> <span class="tlaGNC">         282 :     &quot;O Go traz a codificação com agentes para programadores em todo o mundo. Oferecendo limites generosos e acesso confiável aos modelos de código aberto mais capazes, para que você possa construir com agentes poderosos sem se preocupar com custos ou disponibilidade.&quot;,</span></span>
+<span id="L265"><span class="lineNum">     265</span>              : </span>
+<span id="L266"><span class="lineNum">     266</span> <span class="tlaGNC">          33 :   &quot;go.cta.start&quot;: &quot;Assinar o Go&quot;,</span></span>
+<span id="L267"><span class="lineNum">     267</span> <span class="tlaGNC">          42 :   &quot;go.cta.template&quot;: &quot;{{text}} {{price}}&quot;,</span></span>
+<span id="L268"><span class="lineNum">     268</span> <span class="tlaGNC">          32 :   &quot;go.cta.text&quot;: &quot;Assinar o Go&quot;,</span></span>
+<span id="L269"><span class="lineNum">     269</span> <span class="tlaGNC">          31 :   &quot;go.cta.price&quot;: &quot;$10/mês&quot;,</span></span>
+<span id="L270"><span class="lineNum">     270</span> <span class="tlaGNC">          42 :   &quot;go.cta.promo&quot;: &quot;$5 no primeiro mês&quot;,</span></span>
+<span id="L271"><span class="lineNum">     271</span> <span class="tlaGNC">          19 :   &quot;go.pricing.body&quot;:</span></span>
+<span id="L272"><span class="lineNum">     272</span> <span class="tlaGNC">         141 :     &quot;Use com qualquer agente. $5 no primeiro mês, depois $10/mês. Recarregue o crédito se necessário. Cancele a qualquer momento.&quot;,</span></span>
+<span id="L273"><span class="lineNum">     273</span> <span class="tlaGNC">          31 :   &quot;go.graph.free&quot;: &quot;Grátis&quot;,</span></span>
+<span id="L274"><span class="lineNum">     274</span> <span class="tlaGNC">          56 :   &quot;go.graph.freePill&quot;: &quot;Big Pickle e modelos gratuitos&quot;,</span></span>
+<span id="L275"><span class="lineNum">     275</span> <span class="tlaGNC">          22 :   &quot;go.graph.go&quot;: &quot;Go&quot;,</span></span>
+<span id="L276"><span class="lineNum">     276</span> <span class="tlaGNC">          52 :   &quot;go.graph.label&quot;: &quot;Requisições por 5 horas&quot;,</span></span>
+<span id="L277"><span class="lineNum">     277</span> <span class="tlaGNC">          43 :   &quot;go.graph.usageLimits&quot;: &quot;Limites de uso&quot;,</span></span>
+<span id="L278"><span class="lineNum">     278</span> <span class="tlaGNC">          66 :   &quot;go.graph.aria&quot;: &quot;Requisições por 5h: {{free}} vs {{go}}&quot;,</span></span>
+<span id="L279"><span class="lineNum">     279</span>              : </span>
+<span id="L280"><span class="lineNum">     280</span> <span class="tlaGNC">          37 :   &quot;go.testimonials.brand.zen&quot;: &quot;Zen&quot;,</span></span>
+<span id="L281"><span class="lineNum">     281</span> <span class="tlaGNC">          35 :   &quot;go.testimonials.brand.go&quot;: &quot;Go&quot;,</span></span>
+<span id="L282"><span class="lineNum">     282</span> <span class="tlaGNC">          40 :   &quot;go.testimonials.handle&quot;: &quot;@OpenCode&quot;,</span></span>
+<span id="L283"><span class="lineNum">     283</span> <span class="tlaGNC">          41 :   &quot;go.testimonials.dax.name&quot;: &quot;Dax Raad&quot;,</span></span>
+<span id="L284"><span class="lineNum">     284</span> <span class="tlaGNC">          59 :   &quot;go.testimonials.dax.title&quot;: &quot;ex-CEO, Terminal Products&quot;,</span></span>
+<span id="L285"><span class="lineNum">     285</span> <span class="tlaGNC">          93 :   &quot;go.testimonials.dax.quoteAfter&quot;: &quot;mudou minha vida, é realmente uma escolha óbvia.&quot;,</span></span>
+<span id="L286"><span class="lineNum">     286</span> <span class="tlaGNC">          38 :   &quot;go.testimonials.jay.name&quot;: &quot;Jay V&quot;,</span></span>
+<span id="L287"><span class="lineNum">     287</span> <span class="tlaGNC">          92 :   &quot;go.testimonials.jay.title&quot;: &quot;ex-Fundador, SEED, PM, Melt, Pop, Dapt, Cadmus e ViewPoint&quot;,</span></span>
+<span id="L288"><span class="lineNum">     288</span> <span class="tlaGNC">          82 :   &quot;go.testimonials.jay.quoteBefore&quot;: &quot;4 de 5 pessoas em nossa equipe adoram usar&quot;,</span></span>
+<span id="L289"><span class="lineNum">     289</span> <span class="tlaGNC">          40 :   &quot;go.testimonials.jay.quoteAfter&quot;: &quot;.&quot;,</span></span>
+<span id="L290"><span class="lineNum">     290</span> <span class="tlaGNC">          45 :   &quot;go.testimonials.adam.name&quot;: &quot;Adam Elmore&quot;,</span></span>
+<span id="L291"><span class="lineNum">     291</span> <span class="tlaGNC">          47 :   &quot;go.testimonials.adam.title&quot;: &quot;ex-Hero, AWS&quot;,</span></span>
+<span id="L292"><span class="lineNum">     292</span> <span class="tlaGNC">          71 :   &quot;go.testimonials.adam.quoteBefore&quot;: &quot;Eu não consigo recomendar o&quot;,</span></span>
+<span id="L293"><span class="lineNum">     293</span> <span class="tlaGNC">          79 :   &quot;go.testimonials.adam.quoteAfter&quot;: &quot;o suficiente. Sério, é muito bom.&quot;,</span></span>
+<span id="L294"><span class="lineNum">     294</span> <span class="tlaGNC">          45 :   &quot;go.testimonials.david.name&quot;: &quot;David Hill&quot;,</span></span>
+<span id="L295"><span class="lineNum">     295</span> <span class="tlaGNC">          62 :   &quot;go.testimonials.david.title&quot;: &quot;ex-Head de Design, Laravel&quot;,</span></span>
+<span id="L296"><span class="lineNum">     296</span> <span class="tlaGNC">          47 :   &quot;go.testimonials.david.quoteBefore&quot;: &quot;Com o&quot;,</span></span>
+<span id="L297"><span class="lineNum">     297</span> <span class="tlaGNC">          36 :   &quot;go.testimonials.david.quoteAfter&quot;:</span></span>
+<span id="L298"><span class="lineNum">     298</span> <span class="tlaGNC">          95 :     &quot;eu sei que todos os modelos são testados e perfeitos para agentes de codificação.&quot;,</span></span>
+<span id="L299"><span class="lineNum">     299</span> <span class="tlaGNC">          45 :   &quot;go.testimonials.frank.name&quot;: &quot;Frank Wang&quot;,</span></span>
+<span id="L300"><span class="lineNum">     300</span> <span class="tlaGNC">          70 :   &quot;go.testimonials.frank.title&quot;: &quot;ex-Estagiário, Nvidia (4 vezes)&quot;,</span></span>
+<span id="L301"><span class="lineNum">     301</span> <span class="tlaGNC">          68 :   &quot;go.testimonials.frank.quote&quot;: &quot;Eu queria ainda estar na Nvidia.&quot;,</span></span>
+<span id="L302"><span class="lineNum">     302</span> <span class="tlaGNC">          51 :   &quot;go.problem.title&quot;: &quot;Que problema o Go resolve?&quot;,</span></span>
+<span id="L303"><span class="lineNum">     303</span> <span class="tlaGNC">          19 :   &quot;go.problem.body&quot;:</span></span>
+<span id="L304"><span class="lineNum">     304</span> <span class="tlaGNC">         281 :     &quot;Estamos focados em levar a experiência do OpenCode para o maior número de pessoas possível. OpenCode Go é uma assinatura de baixo custo: $5 no primeiro mês, depois $10/mês. Oferece limites generosos e acesso confiável aos modelos open source mais capazes.&quot;,</span></span>
+<span id="L305"><span class="lineNum">     305</span> <span class="tlaGNC">          29 :   &quot;go.problem.subtitle&quot;: &quot; &quot;,</span></span>
+<span id="L306"><span class="lineNum">     306</span> <span class="tlaGNC">          62 :   &quot;go.problem.item1&quot;: &quot;Preço de assinatura de baixo custo&quot;,</span></span>
+<span id="L307"><span class="lineNum">     307</span> <span class="tlaGNC">          64 :   &quot;go.problem.item2&quot;: &quot;Limites generosos e acesso confiável&quot;,</span></span>
+<span id="L308"><span class="lineNum">     308</span> <span class="tlaGNC">          82 :   &quot;go.problem.item3&quot;: &quot;Feito para o maior número possível de programadores&quot;,</span></span>
+<span id="L309"><span class="lineNum">     309</span> <span class="tlaGNC">          97 :   &quot;go.problem.item4&quot;: &quot;Uma seleção de modelos testados para codificação com agentes&quot;,</span></span>
+<span id="L310"><span class="lineNum">     310</span> <span class="tlaGNC">          39 :   &quot;go.how.title&quot;: &quot;Como o Go funciona&quot;,</span></span>
+<span id="L311"><span class="lineNum">     311</span> <span class="tlaGNC">          15 :   &quot;go.how.body&quot;:</span></span>
+<span id="L312"><span class="lineNum">     312</span> <span class="tlaGNC">         122 :     &quot;O Go começa em $5 no primeiro mês, depois $10/mês. Você pode usá-lo com o OpenCode ou qualquer agente.&quot;,</span></span>
+<span id="L313"><span class="lineNum">     313</span> <span class="tlaGNC">          41 :   &quot;go.how.step1.title&quot;: &quot;Crie uma conta&quot;,</span></span>
+<span id="L314"><span class="lineNum">     314</span> <span class="tlaGNC">          39 :   &quot;go.how.step1.beforeLink&quot;: &quot;siga as&quot;,</span></span>
+<span id="L315"><span class="lineNum">     315</span> <span class="tlaGNC">          64 :   &quot;go.how.step1.link&quot;: &quot;instruções de configuração&quot;,</span></span>
+<span id="L316"><span class="lineNum">     316</span> <span class="tlaGNC">          39 :   &quot;go.how.step2.title&quot;: &quot;Assinar o Go&quot;,</span></span>
+<span id="L317"><span class="lineNum">     317</span> <span class="tlaGNC">          47 :   &quot;go.how.step2.link&quot;: &quot;$5 no primeiro mês&quot;,</span></span>
+<span id="L318"><span class="lineNum">     318</span> <span class="tlaGNC">          70 :   &quot;go.how.step2.afterLink&quot;: &quot;depois $10/mês com limites generosos&quot;,</span></span>
+<span id="L319"><span class="lineNum">     319</span> <span class="tlaGNC">          45 :   &quot;go.how.step3.title&quot;: &quot;Comece a codificar&quot;,</span></span>
+<span id="L320"><span class="lineNum">     320</span> <span class="tlaGNC">          79 :   &quot;go.how.step3.body&quot;: &quot;com acesso confiável a modelos de código aberto&quot;,</span></span>
+<span id="L321"><span class="lineNum">     321</span> <span class="tlaGNC">          68 :   &quot;go.privacy.title&quot;: &quot;Sua privacidade é importante para nós&quot;,</span></span>
+<span id="L322"><span class="lineNum">     322</span> <span class="tlaGNC">          19 :   &quot;go.privacy.body&quot;:</span></span>
+<span id="L323"><span class="lineNum">     323</span> <span class="tlaGNC">         153 :     &quot;O plano é projetado principalmente para usuários internacionais, com modelos hospedados nos EUA, UE e Singapura para acesso global estável.&quot;,</span></span>
+<span id="L324"><span class="lineNum">     324</span> <span class="tlaGNC">          66 :   &quot;go.privacy.contactAfter&quot;: &quot;se você tiver alguma dúvida.&quot;,</span></span>
+<span id="L325"><span class="lineNum">     325</span> <span class="tlaGNC">          31 :   &quot;go.privacy.beforeExceptions&quot;:</span></span>
+<span id="L326"><span class="lineNum">     326</span> <span class="tlaGNC">         166 :     &quot;Os modelos Go são hospedados nos EUA. Os provedores seguem uma política de retenção zero e não usam seus dados para treinamento de modelos, com as&quot;,</span></span>
+<span id="L327"><span class="lineNum">     327</span> <span class="tlaGNC">          58 :   &quot;go.privacy.exceptionsLink&quot;: &quot;seguintes exceções&quot;,</span></span>
+<span id="L328"><span class="lineNum">     328</span> <span class="tlaGNC">          41 :   &quot;go.faq.q1&quot;: &quot;O que é OpenCode Go?&quot;,</span></span>
+<span id="L329"><span class="lineNum">     329</span> <span class="tlaGNC">          13 :   &quot;go.faq.a1&quot;:</span></span>
+<span id="L330"><span class="lineNum">     330</span> <span class="tlaGNC">         148 :     &quot;Go é uma assinatura de baixo custo que oferece acesso confiável a modelos de código aberto capazes para codificação com agentes.&quot;,</span></span>
+<span id="L331"><span class="lineNum">     331</span> <span class="tlaGNC">          44 :   &quot;go.faq.q2&quot;: &quot;Quais modelos o Go inclui?&quot;,</span></span>
+<span id="L332"><span class="lineNum">     332</span> <span class="tlaGNC">         102 :   &quot;go.faq.a2&quot;: &quot;O Go inclui os modelos listados abaixo, com limites generosos e acesso confiável.&quot;,</span></span>
+<span id="L333"><span class="lineNum">     333</span> <span class="tlaGNC">          46 :   &quot;go.faq.q3&quot;: &quot;O Go é o mesmo que o Zen?&quot;,</span></span>
+<span id="L334"><span class="lineNum">     334</span> <span class="tlaGNC">          13 :   &quot;go.faq.a3&quot;:</span></span>
+<span id="L335"><span class="lineNum">     335</span> <span class="tlaGNC">         181 :     &quot;Não. Zen é pay-as-you-go, enquanto o Go começa em $5 no primeiro mês, depois $10/mês, com limites generosos e acesso confiável a uma seleção de modelos.&quot;,</span></span>
+<span id="L336"><span class="lineNum">     336</span> <span class="tlaGNC">          36 :   &quot;go.faq.q4&quot;: &quot;Quanto custa o Go?&quot;,</span></span>
+<span id="L337"><span class="lineNum">     337</span> <span class="tlaGNC">          45 :   &quot;go.faq.a4.p1.beforePricing&quot;: &quot;O Go custa&quot;,</span></span>
+<span id="L338"><span class="lineNum">     338</span> <span class="tlaGNC">          54 :   &quot;go.faq.a4.p1.pricingLink&quot;: &quot;$5 no primeiro mês&quot;,</span></span>
+<span id="L339"><span class="lineNum">     339</span> <span class="tlaGNC">          74 :   &quot;go.faq.a4.p1.afterPricing&quot;: &quot;depois $10/mês com limites generosos.&quot;,</span></span>
+<span id="L340"><span class="lineNum">     340</span> <span class="tlaGNC">          79 :   &quot;go.faq.a4.p2.beforeAccount&quot;: &quot;Você pode gerenciar sua assinatura em sua&quot;,</span></span>
+<span id="L341"><span class="lineNum">     341</span> <span class="tlaGNC">          38 :   &quot;go.faq.a4.p2.accountLink&quot;: &quot;conta&quot;,</span></span>
+<span id="L342"><span class="lineNum">     342</span> <span class="tlaGNC">          48 :   &quot;go.faq.a4.p3&quot;: &quot;Cancele a qualquer momento.&quot;,</span></span>
+<span id="L343"><span class="lineNum">     343</span> <span class="tlaGNC">          46 :   &quot;go.faq.q5&quot;: &quot;E sobre dados e privacidade?&quot;,</span></span>
+<span id="L344"><span class="lineNum">     344</span> <span class="tlaGNC">          30 :   &quot;go.faq.a5.model&quot;: &quot;Modelo&quot;,</span></span>
+<span id="L345"><span class="lineNum">     345</span> <span class="tlaGNC">          49 :   &quot;go.faq.a5.training&quot;: &quot;Treinamento de modelos&quot;,</span></span>
+<span id="L346"><span class="lineNum">     346</span> <span class="tlaGNC">          51 :   &quot;go.faq.a5.retention&quot;: &quot;Retenção de dados&quot;,</span></span>
+<span id="L347"><span class="lineNum">     347</span> <span class="tlaGNC">          37 :   &quot;go.faq.a5.retention30&quot;: &quot;30 dias&quot;,</span></span>
+<span id="L348"><span class="lineNum">     348</span> <span class="tlaGNC">          35 :   &quot;go.faq.a5.retention0&quot;: &quot;0 dias&quot;,</span></span>
+<span id="L349"><span class="lineNum">     349</span> <span class="tlaGNC">          28 :   &quot;go.faq.a5.used&quot;: &quot;Usado&quot;,</span></span>
+<span id="L350"><span class="lineNum">     350</span> <span class="tlaGNC">          38 :   &quot;go.faq.a5.notUsed&quot;: &quot;Não usado&quot;,</span></span>
+<span id="L351"><span class="lineNum">     351</span> <span class="tlaGNC">          40 :   &quot;go.faq.a5.noAgreement&quot;: &quot;Sem acordo&quot;,</span></span>
+<span id="L352"><span class="lineNum">     352</span> <span class="tlaGNC">          27 :   &quot;go.faq.a5.grokRetention&quot;:</span></span>
+<span id="L353"><span class="lineNum">     353</span> <span class="tlaGNC">         157 :     &quot;O ZDR desativa recursos importantes da API que dependem de dados armazenados, incluindo a Responses API com estado, Files and Collections e a Batch API.&quot;,</span></span>
+<span id="L354"><span class="lineNum">     354</span> <span class="tlaGNC">          26 :   &quot;go.faq.a5.gptRetention&quot;:</span></span>
+<span id="L355"><span class="lineNum">     355</span> <span class="tlaGNC">         113 :     &quot;Logs de monitoramento de abuso são gerados para todo uso de recursos da API e retidos por até 30 dias.&quot;,</span></span>
+<span id="L356"><span class="lineNum">     356</span> <span class="tlaGNC">          38 :   &quot;go.faq.a5.learnMore&quot;: &quot;Saiba mais&quot;,</span></span>
+<span id="L357"><span class="lineNum">     357</span> <span class="tlaGNC">          31 :   &quot;go.faq.a5.deepseekRetention&quot;:</span></span>
+<span id="L358"><span class="lineNum">     358</span> <span class="tlaGNC">         106 :     &quot;O acordo de ZDR é renovado mensalmente. O acordo atual é válido até 31 de agosto de 2026.&quot;,</span></span>
+<span id="L359"><span class="lineNum">     359</span> <span class="tlaGNC">          30 :   &quot;go.faq.a5.beforeExceptions&quot;:</span></span>
+<span id="L360"><span class="lineNum">     360</span> <span class="tlaGNC">         166 :     &quot;Os modelos Go são hospedados nos EUA. Os provedores seguem uma política de retenção zero e não usam seus dados para treinamento de modelos, com as&quot;,</span></span>
+<span id="L361"><span class="lineNum">     361</span> <span class="tlaGNC">          57 :   &quot;go.faq.a5.exceptionsLink&quot;: &quot;seguintes exceções&quot;,</span></span>
+<span id="L362"><span class="lineNum">     362</span> <span class="tlaGNC">          46 :   &quot;go.faq.q6&quot;: &quot;Posso recarregar crédito?&quot;,</span></span>
+<span id="L363"><span class="lineNum">     363</span> <span class="tlaGNC">          91 :   &quot;go.faq.a6&quot;: &quot;Se você precisar de mais uso, pode recarregar crédito em sua conta.&quot;,</span></span>
+<span id="L364"><span class="lineNum">     364</span> <span class="tlaGNC">          33 :   &quot;go.faq.q7&quot;: &quot;Posso cancelar?&quot;,</span></span>
+<span id="L365"><span class="lineNum">     365</span> <span class="tlaGNC">          64 :   &quot;go.faq.a7&quot;: &quot;Sim, você pode cancelar a qualquer momento.&quot;,</span></span>
+<span id="L366"><span class="lineNum">     366</span> <span class="tlaGNC">          74 :   &quot;go.faq.q8&quot;: &quot;Posso usar o Go com outros agentes de codificação?&quot;,</span></span>
+<span id="L367"><span class="lineNum">     367</span> <span class="tlaGNC">          13 :   &quot;go.faq.a8&quot;:</span></span>
+<span id="L368"><span class="lineNum">     368</span> <span class="tlaGNC">         146 :     &quot;Sim, você pode usar o Go com qualquer agente. Siga as instruções de configuração no seu agente de codificação preferido.&quot;,</span></span>
+<span id="L369"><span class="lineNum">     369</span>              : </span>
+<span id="L370"><span class="lineNum">     370</span> <span class="tlaGNC">          72 :   &quot;go.faq.q9&quot;: &quot;Qual a diferença entre os modelos gratuitos e o Go?&quot;,</span></span>
+<span id="L371"><span class="lineNum">     371</span> <span class="tlaGNC">          13 :   &quot;go.faq.a9&quot;:</span></span>
+<span id="L372"><span class="lineNum">     372</span> <span class="tlaGNC">         441 :     &quot;Os modelos gratuitos incluem Big Pickle e modelos promocionais disponíveis no momento, com uma cota de 200 requisições/dia. O Go oferece uma seleção de modelos com cotas de requisição mais altas aplicadas em janelas móveis (5 horas, semanal e mensal), aproximadamente equivalentes a $12 por 5 horas, $30 por semana e $60 por mês (as contagens reais de requisições variam de acordo com o modelo e o uso).&quot;,</span></span>
+<span id="L373"><span class="lineNum">     373</span>              : </span>
+<span id="L374"><span class="lineNum">     374</span> <span class="tlaGNC">         103 :   &quot;zen.api.error.rateLimitExceeded&quot;: &quot;Limite de taxa excedido. Por favor, tente novamente mais tarde.&quot;,</span></span>
+<span id="L375"><span class="lineNum">     375</span> <span class="tlaGNC">          73 :   &quot;zen.api.error.modelNotSupported&quot;: &quot;Modelo {{model}} não suportado&quot;,</span></span>
+<span id="L376"><span class="lineNum">     376</span> <span class="tlaGNC">         105 :   &quot;zen.api.error.modelFormatNotSupported&quot;: &quot;Modelo {{model}} não suportado para o formato {{format}}&quot;,</span></span>
+<span id="L377"><span class="lineNum">     377</span> <span class="tlaGNC">          71 :   &quot;zen.api.error.noProviderAvailable&quot;: &quot;Nenhum provedor disponível&quot;,</span></span>
+<span id="L378"><span class="lineNum">     378</span> <span class="tlaGNC">          81 :   &quot;zen.api.error.providerNotSupported&quot;: &quot;Provedor {{provider}} não suportado&quot;,</span></span>
+<span id="L379"><span class="lineNum">     379</span> <span class="tlaGNC">          57 :   &quot;zen.api.error.missingApiKey&quot;: &quot;Chave de API ausente.&quot;,</span></span>
+<span id="L380"><span class="lineNum">     380</span> <span class="tlaGNC">          61 :   &quot;zen.api.error.invalidApiKey&quot;: &quot;Chave de API inválida.&quot;,</span></span>
+<span id="L381"><span class="lineNum">     381</span> <span class="tlaGNC">         106 :   &quot;zen.api.error.requestBlockedByUpstreamProvider&quot;: &quot;Solicitação bloqueada pelo provedor upstream.&quot;,</span></span>
+<span id="L382"><span class="lineNum">     382</span> <span class="tlaGNC">         108 :   &quot;zen.api.error.subscriptionQuotaExceeded&quot;: &quot;Cota de assinatura excedida. Tente novamente em {{retryIn}}.&quot;,</span></span>
+<span id="L383"><span class="lineNum">     383</span> <span class="tlaGNC">          52 :   &quot;zen.api.error.goSubscriptionRollingLimitExceeded&quot;:</span></span>
+<span id="L384"><span class="lineNum">     384</span> <span class="tlaGNC">         184 :     &quot;Limite de uso de 5 horas atingido. Será reiniciado em {{retryIn}}. Para continuar usando este modelo agora, habilite o uso a partir do seu saldo disponível: {{consoleGoUrl}}&quot;,</span></span>
+<span id="L385"><span class="lineNum">     385</span> <span class="tlaGNC">          51 :   &quot;zen.api.error.goSubscriptionWeeklyLimitExceeded&quot;:</span></span>
+<span id="L386"><span class="lineNum">     386</span> <span class="tlaGNC">         181 :     &quot;Limite de uso semanal atingido. Será reiniciado em {{retryIn}}. Para continuar usando este modelo agora, habilite o uso a partir do seu saldo disponível: {{consoleGoUrl}}&quot;,</span></span>
+<span id="L387"><span class="lineNum">     387</span> <span class="tlaGNC">          52 :   &quot;zen.api.error.goSubscriptionMonthlyLimitExceeded&quot;:</span></span>
+<span id="L388"><span class="lineNum">     388</span> <span class="tlaGNC">         180 :     &quot;Limite de uso mensal atingido. Será reiniciado em {{retryIn}}. Para continuar usando este modelo agora, habilite o uso a partir do seu saldo disponível: {{consoleGoUrl}}&quot;,</span></span>
+<span id="L389"><span class="lineNum">     389</span> <span class="tlaGNC">         118 :   &quot;zen.api.error.noPaymentMethod&quot;: &quot;Nenhuma forma de pagamento. Adicione uma forma de pagamento aqui: {{billingUrl}}&quot;,</span></span>
+<span id="L390"><span class="lineNum">     390</span> <span class="tlaGNC">         107 :   &quot;zen.api.error.insufficientBalance&quot;: &quot;Saldo insuficiente. Gerencie seu faturamento aqui: {{billingUrl}}&quot;,</span></span>
+<span id="L391"><span class="lineNum">     391</span> <span class="tlaGNC">          46 :   &quot;zen.api.error.workspaceMonthlyLimitReached&quot;:</span></span>
+<span id="L392"><span class="lineNum">     392</span> <span class="tlaGNC">         112 :     &quot;Seu workspace atingiu o limite de gastos mensais de ${{amount}}. Gerencie seus limites aqui: {{billingUrl}}&quot;,</span></span>
+<span id="L393"><span class="lineNum">     393</span> <span class="tlaGNC">          41 :   &quot;zen.api.error.userMonthlyLimitReached&quot;:</span></span>
+<span id="L394"><span class="lineNum">     394</span> <span class="tlaGNC">         108 :     &quot;Você atingiu seu limite de gastos mensais de ${{amount}}. Gerencie seus limites aqui: {{membersUrl}}&quot;,</span></span>
+<span id="L395"><span class="lineNum">     395</span> <span class="tlaGNC">          65 :   &quot;zen.api.error.modelDisabled&quot;: &quot;O modelo está desabilitado&quot;,</span></span>
+<span id="L396"><span class="lineNum">     396</span> <span class="tlaGNC">          34 :   &quot;zen.api.error.regionNotAllowed&quot;:</span></span>
+<span id="L397"><span class="lineNum">     397</span> <span class="tlaGNC">         145 :     &quot;A versão mais recente deste modelo está disponível apenas com hospedagem na China e requer adesão explícita: {{consoleGoUrl}}&quot;,</span></span>
+<span id="L398"><span class="lineNum">     398</span> <span class="tlaGNC">          28 :   &quot;zen.api.error.trialEnded&quot;:</span></span>
+<span id="L399"><span class="lineNum">     399</span> <span class="tlaGNC">         127 :     &quot;A promoção gratuita do {{model}} terminou. Você pode continuar usando o modelo assinando o OpenCode Go - {{link}}&quot;,</span></span>
+<span id="L400"><span class="lineNum">     400</span>              : </span>
+<span id="L401"><span class="lineNum">     401</span> <span class="tlaGNC">          98 :   &quot;black.meta.title&quot;: &quot;OpenCode Black | Acesse os melhores modelos de codificação do mundo&quot;,</span></span>
+<span id="L402"><span class="lineNum">     402</span> <span class="tlaGNC">         117 :   &quot;black.meta.description&quot;: &quot;Tenha acesso ao Claude, GPT, Gemini e mais com os planos de assinatura OpenCode Black.&quot;,</span></span>
+<span id="L403"><span class="lineNum">     403</span> <span class="tlaGNC">          81 :   &quot;black.hero.title&quot;: &quot;Acesse os melhores modelos de codificação do mundo&quot;,</span></span>
+<span id="L404"><span class="lineNum">     404</span> <span class="tlaGNC">          64 :   &quot;black.hero.subtitle&quot;: &quot;Incluindo Claude, GPT, Gemini e mais&quot;,</span></span>
+<span id="L405"><span class="lineNum">     405</span> <span class="tlaGNC">          46 :   &quot;black.title&quot;: &quot;OpenCode Black | Preços&quot;,</span></span>
+<span id="L406"><span class="lineNum">     406</span> <span class="tlaGNC">          86 :   &quot;black.paused&quot;: &quot;A inscrição no plano Black está temporariamente pausada.&quot;,</span></span>
+<span id="L407"><span class="lineNum">     407</span> <span class="tlaGNC">          40 :   &quot;black.plan.icon20&quot;: &quot;Plano Black 20&quot;,</span></span>
+<span id="L408"><span class="lineNum">     408</span> <span class="tlaGNC">          42 :   &quot;black.plan.icon100&quot;: &quot;Plano Black 100&quot;,</span></span>
+<span id="L409"><span class="lineNum">     409</span> <span class="tlaGNC">          42 :   &quot;black.plan.icon200&quot;: &quot;Plano Black 200&quot;,</span></span>
+<span id="L410"><span class="lineNum">     410</span> <span class="tlaGNC">          59 :   &quot;black.plan.multiplier100&quot;: &quot;5x mais uso que o Black 20&quot;,</span></span>
+<span id="L411"><span class="lineNum">     411</span> <span class="tlaGNC">          60 :   &quot;black.plan.multiplier200&quot;: &quot;20x mais uso que o Black 20&quot;,</span></span>
+<span id="L412"><span class="lineNum">     412</span> <span class="tlaGNC">          39 :   &quot;black.price.perMonth&quot;: &quot;por mês&quot;,</span></span>
+<span id="L413"><span class="lineNum">     413</span> <span class="tlaGNC">          74 :   &quot;black.price.perPersonBilledMonthly&quot;: &quot;por pessoa faturado mensalmente&quot;,</span></span>
+<span id="L414"><span class="lineNum">     414</span> <span class="tlaGNC">          72 :   &quot;black.terms.1&quot;: &quot;Sua assinatura não começará imediatamente&quot;,</span></span>
+<span id="L415"><span class="lineNum">     415</span> <span class="tlaGNC">          88 :   &quot;black.terms.2&quot;: &quot;Você será adicionado à lista de espera e ativado em breve&quot;,</span></span>
+<span id="L416"><span class="lineNum">     416</span> <span class="tlaGNC">          91 :   &quot;black.terms.3&quot;: &quot;Seu cartão só será cobrado quando sua assinatura for ativada&quot;,</span></span>
+<span id="L417"><span class="lineNum">     417</span> <span class="tlaGNC">         110 :   &quot;black.terms.4&quot;: &quot;Limites de uso se aplicam; uso fortemente automatizado pode atingir os limites mais cedo&quot;,</span></span>
+<span id="L418"><span class="lineNum">     418</span> <span class="tlaGNC">          92 :   &quot;black.terms.5&quot;: &quot;Assinaturas são para indivíduos, contate Enterprise para equipes&quot;,</span></span>
+<span id="L419"><span class="lineNum">     419</span> <span class="tlaGNC">          93 :   &quot;black.terms.6&quot;: &quot;Limites podem ser ajustados e planos podem ser descontinuados no futuro&quot;,</span></span>
+<span id="L420"><span class="lineNum">     420</span> <span class="tlaGNC">          63 :   &quot;black.terms.7&quot;: &quot;Cancele sua assinatura a qualquer momento&quot;,</span></span>
+<span id="L421"><span class="lineNum">     421</span> <span class="tlaGNC">          39 :   &quot;black.action.continue&quot;: &quot;Continuar&quot;,</span></span>
+<span id="L422"><span class="lineNum">     422</span> <span class="tlaGNC">          96 :   &quot;black.finePrint.beforeTerms&quot;: &quot;Os preços mostrados não incluem impostos aplicáveis&quot;,</span></span>
+<span id="L423"><span class="lineNum">     423</span> <span class="tlaGNC">          50 :   &quot;black.finePrint.terms&quot;: &quot;Termos de Serviço&quot;,</span></span>
+<span id="L424"><span class="lineNum">     424</span> <span class="tlaGNC">          67 :   &quot;black.workspace.title&quot;: &quot;OpenCode Black | Selecionar Workspace&quot;,</span></span>
+<span id="L425"><span class="lineNum">     425</span> <span class="tlaGNC">          73 :   &quot;black.workspace.selectPlan&quot;: &quot;Selecione um workspace para este plano&quot;,</span></span>
+<span id="L426"><span class="lineNum">     426</span> <span class="tlaGNC">          44 :   &quot;black.workspace.name&quot;: &quot;Workspace {{n}}&quot;,</span></span>
+<span id="L427"><span class="lineNum">     427</span> <span class="tlaGNC">          52 :   &quot;black.subscribe.title&quot;: &quot;Assinar OpenCode Black&quot;,</span></span>
+<span id="L428"><span class="lineNum">     428</span> <span class="tlaGNC">          56 :   &quot;black.subscribe.paymentMethod&quot;: &quot;Forma de pagamento&quot;,</span></span>
+<span id="L429"><span class="lineNum">     429</span> <span class="tlaGNC">          83 :   &quot;black.subscribe.loadingPaymentForm&quot;: &quot;Carregando formulário de pagamento...&quot;,</span></span>
+<span id="L430"><span class="lineNum">     430</span> <span class="tlaGNC">          87 :   &quot;black.subscribe.selectWorkspaceToContinue&quot;: &quot;Selecione um workspace para continuar&quot;,</span></span>
+<span id="L431"><span class="lineNum">     431</span> <span class="tlaGNC">          42 :   &quot;black.subscribe.failurePrefix&quot;: &quot;Ops!&quot;,</span></span>
+<span id="L432"><span class="lineNum">     432</span> <span class="tlaGNC">          53 :   &quot;black.subscribe.error.generic&quot;: &quot;Ocorreu um erro&quot;,</span></span>
+<span id="L433"><span class="lineNum">     433</span> <span class="tlaGNC">          59 :   &quot;black.subscribe.error.invalidPlan&quot;: &quot;Plano inválido&quot;,</span></span>
+<span id="L434"><span class="lineNum">     434</span> <span class="tlaGNC">          83 :   &quot;black.subscribe.error.workspaceRequired&quot;: &quot;ID do workspace é obrigatório&quot;,</span></span>
+<span id="L435"><span class="lineNum">     435</span> <span class="tlaGNC">          90 :   &quot;black.subscribe.error.alreadySubscribed&quot;: &quot;Este workspace já possui uma assinatura&quot;,</span></span>
+<span id="L436"><span class="lineNum">     436</span> <span class="tlaGNC">          49 :   &quot;black.subscribe.processing&quot;: &quot;Processando...&quot;,</span></span>
+<span id="L437"><span class="lineNum">     437</span> <span class="tlaGNC">          48 :   &quot;black.subscribe.submit&quot;: &quot;Assinar ${{plan}}&quot;,</span></span>
+<span id="L438"><span class="lineNum">     438</span> <span class="tlaGNC">         105 :   &quot;black.subscribe.form.chargeNotice&quot;: &quot;Você só será cobrado quando sua assinatura for ativada&quot;,</span></span>
+<span id="L439"><span class="lineNum">     439</span> <span class="tlaGNC">          90 :   &quot;black.subscribe.success.title&quot;: &quot;Você está na lista de espera do OpenCode Black&quot;,</span></span>
+<span id="L440"><span class="lineNum">     440</span> <span class="tlaGNC">          68 :   &quot;black.subscribe.success.subscriptionPlan&quot;: &quot;Plano de assinatura&quot;,</span></span>
+<span id="L441"><span class="lineNum">     441</span> <span class="tlaGNC">          64 :   &quot;black.subscribe.success.planName&quot;: &quot;OpenCode Black {{plan}}&quot;,</span></span>
+<span id="L442"><span class="lineNum">     442</span> <span class="tlaGNC">          44 :   &quot;black.subscribe.success.amount&quot;: &quot;Valor&quot;,</span></span>
+<span id="L443"><span class="lineNum">     443</span> <span class="tlaGNC">          64 :   &quot;black.subscribe.success.amountValue&quot;: &quot;${{plan}} por mês&quot;,</span></span>
+<span id="L444"><span class="lineNum">     444</span> <span class="tlaGNC">          64 :   &quot;black.subscribe.success.paymentMethod&quot;: &quot;Forma de pagamento&quot;,</span></span>
+<span id="L445"><span class="lineNum">     445</span> <span class="tlaGNC">          58 :   &quot;black.subscribe.success.dateJoined&quot;: &quot;Data de entrada&quot;,</span></span>
+<span id="L446"><span class="lineNum">     446</span> <span class="tlaGNC">         108 :   &quot;black.subscribe.success.chargeNotice&quot;: &quot;Seu cartão será cobrado quando sua assinatura for ativada&quot;,</span></span>
+<span id="L447"><span class="lineNum">     447</span>              : </span>
+<span id="L448"><span class="lineNum">     448</span> <span class="tlaGNC">          29 :   &quot;workspace.nav.zen&quot;: &quot;Zen&quot;,</span></span>
+<span id="L449"><span class="lineNum">     449</span> <span class="tlaGNC">          27 :   &quot;workspace.nav.go&quot;: &quot;Go&quot;,</span></span>
+<span id="L450"><span class="lineNum">     450</span> <span class="tlaGNC">          31 :   &quot;workspace.nav.usage&quot;: &quot;Uso&quot;,</span></span>
+<span id="L451"><span class="lineNum">     451</span> <span class="tlaGNC">          43 :   &quot;workspace.nav.apiKeys&quot;: &quot;Chaves de API&quot;,</span></span>
+<span id="L452"><span class="lineNum">     452</span> <span class="tlaGNC">          37 :   &quot;workspace.nav.members&quot;: &quot;Membros&quot;,</span></span>
+<span id="L453"><span class="lineNum">     453</span> <span class="tlaGNC">          41 :   &quot;workspace.nav.billing&quot;: &quot;Faturamento&quot;,</span></span>
+<span id="L454"><span class="lineNum">     454</span> <span class="tlaGNC">          50 :   &quot;workspace.nav.settings&quot;: &quot;Configurações&quot;,</span></span>
+<span id="L455"><span class="lineNum">     455</span>              : </span>
+<span id="L456"><span class="lineNum">     456</span> <span class="tlaGNC">         110 :   &quot;workspace.home.banner.beforeLink&quot;: &quot;Modelos otimizados e confiáveis para agentes de codificação.&quot;,</span></span>
+<span id="L457"><span class="lineNum">     457</span> <span class="tlaGNC">          96 :   &quot;workspace.lite.banner.beforeLink&quot;: &quot;Modelos de codificação de baixo custo para todos.&quot;,</span></span>
+<span id="L458"><span class="lineNum">     458</span> <span class="tlaGNC">          52 :   &quot;workspace.home.billing.loading&quot;: &quot;Carregando...&quot;,</span></span>
+<span id="L459"><span class="lineNum">     459</span> <span class="tlaGNC">          56 :   &quot;workspace.home.billing.enable&quot;: &quot;Ativar faturamento&quot;,</span></span>
+<span id="L460"><span class="lineNum">     460</span> <span class="tlaGNC">          57 :   &quot;workspace.home.billing.currentBalance&quot;: &quot;Saldo atual&quot;,</span></span>
+<span id="L461"><span class="lineNum">     461</span>              : </span>
+<span id="L462"><span class="lineNum">     462</span> <span class="tlaGNC">          77 :   &quot;workspace.newUser.feature.tested.title&quot;: &quot;Modelos Testados e Verificados&quot;,</span></span>
+<span id="L463"><span class="lineNum">     463</span> <span class="tlaGNC">          41 :   &quot;workspace.newUser.feature.tested.body&quot;:</span></span>
+<span id="L464"><span class="lineNum">     464</span> <span class="tlaGNC">         118 :     &quot;Avaliamos e testamos modelos especificamente para agentes de codificação para garantir o melhor desempenho.&quot;,</span></span>
+<span id="L465"><span class="lineNum">     465</span> <span class="tlaGNC">          67 :   &quot;workspace.newUser.feature.quality.title&quot;: &quot;Qualidade Máxima&quot;,</span></span>
+<span id="L466"><span class="lineNum">     466</span> <span class="tlaGNC">          42 :   &quot;workspace.newUser.feature.quality.body&quot;:</span></span>
+<span id="L467"><span class="lineNum">     467</span> <span class="tlaGNC">         115 :     &quot;Acesse modelos configurados para desempenho ideal - sem downgrades ou roteamento para provedores mais baratos.&quot;,</span></span>
+<span id="L468"><span class="lineNum">     468</span> <span class="tlaGNC">          61 :   &quot;workspace.newUser.feature.lockin.title&quot;: &quot;Sem Fidelidade&quot;,</span></span>
+<span id="L469"><span class="lineNum">     469</span> <span class="tlaGNC">          41 :   &quot;workspace.newUser.feature.lockin.body&quot;:</span></span>
+<span id="L470"><span class="lineNum">     470</span> <span class="tlaGNC">         123 :     &quot;Use o Zen com qualquer agente de codificação e continue usando outros provedores com opencode sempre que quiser.&quot;,</span></span>
+<span id="L471"><span class="lineNum">     471</span> <span class="tlaGNC">          56 :   &quot;workspace.newUser.copyApiKey&quot;: &quot;Copiar chave de API&quot;,</span></span>
+<span id="L472"><span class="lineNum">     472</span> <span class="tlaGNC">          46 :   &quot;workspace.newUser.copyKey&quot;: &quot;Copiar Chave&quot;,</span></span>
+<span id="L473"><span class="lineNum">     473</span> <span class="tlaGNC">          41 :   &quot;workspace.newUser.copied&quot;: &quot;Copiado!&quot;,</span></span>
+<span id="L474"><span class="lineNum">     474</span> <span class="tlaGNC">          63 :   &quot;workspace.newUser.step.enableBilling&quot;: &quot;Ativar faturamento&quot;,</span></span>
+<span id="L475"><span class="lineNum">     475</span> <span class="tlaGNC">          51 :   &quot;workspace.newUser.step.login.before&quot;: &quot;Execute&quot;,</span></span>
+<span id="L476"><span class="lineNum">     476</span> <span class="tlaGNC">          63 :   &quot;workspace.newUser.step.login.after&quot;: &quot;e selecione opencode&quot;,</span></span>
+<span id="L477"><span class="lineNum">     477</span> <span class="tlaGNC">          61 :   &quot;workspace.newUser.step.pasteKey&quot;: &quot;Cole sua chave de API&quot;,</span></span>
+<span id="L478"><span class="lineNum">     478</span> <span class="tlaGNC">          72 :   &quot;workspace.newUser.step.models.before&quot;: &quot;Inicie o opencode e execute&quot;,</span></span>
+<span id="L479"><span class="lineNum">     479</span> <span class="tlaGNC">          69 :   &quot;workspace.newUser.step.models.after&quot;: &quot;para selecionar um modelo&quot;,</span></span>
+<span id="L480"><span class="lineNum">     480</span>              : </span>
+<span id="L481"><span class="lineNum">     481</span> <span class="tlaGNC">          38 :   &quot;workspace.models.title&quot;: &quot;Modelos&quot;,</span></span>
+<span id="L482"><span class="lineNum">     482</span> <span class="tlaGNC">         106 :   &quot;workspace.models.subtitle.beforeLink&quot;: &quot;Gerencie quais modelos os membros do workspace podem acessar.&quot;,</span></span>
+<span id="L483"><span class="lineNum">     483</span> <span class="tlaGNC">          43 :   &quot;workspace.models.table.model&quot;: &quot;Modelo&quot;,</span></span>
+<span id="L484"><span class="lineNum">     484</span> <span class="tlaGNC">          49 :   &quot;workspace.models.table.enabled&quot;: &quot;Habilitado&quot;,</span></span>
+<span id="L485"><span class="lineNum">     485</span>              : </span>
+<span id="L486"><span class="lineNum">     486</span> <span class="tlaGNC">          60 :   &quot;workspace.providers.title&quot;: &quot;Traga Sua Própria Chave&quot;,</span></span>
+<span id="L487"><span class="lineNum">     487</span> <span class="tlaGNC">          98 :   &quot;workspace.providers.subtitle&quot;: &quot;Configure suas próprias chaves de API de provedores de IA.&quot;,</span></span>
+<span id="L488"><span class="lineNum">     488</span> <span class="tlaGNC">          90 :   &quot;workspace.providers.placeholder&quot;: &quot;Insira a chave de API {{provider}} ({{prefix}}...)&quot;,</span></span>
+<span id="L489"><span class="lineNum">     489</span> <span class="tlaGNC">          48 :   &quot;workspace.providers.configure&quot;: &quot;Configurar&quot;,</span></span>
+<span id="L490"><span class="lineNum">     490</span> <span class="tlaGNC">          39 :   &quot;workspace.providers.edit&quot;: &quot;Editar&quot;,</span></span>
+<span id="L491"><span class="lineNum">     491</span> <span class="tlaGNC">          42 :   &quot;workspace.providers.delete&quot;: &quot;Excluir&quot;,</span></span>
+<span id="L492"><span class="lineNum">     492</span> <span class="tlaGNC">          46 :   &quot;workspace.providers.saving&quot;: &quot;Salvando...&quot;,</span></span>
+<span id="L493"><span class="lineNum">     493</span> <span class="tlaGNC">          39 :   &quot;workspace.providers.save&quot;: &quot;Salvar&quot;,</span></span>
+<span id="L494"><span class="lineNum">     494</span> <span class="tlaGNC">          51 :   &quot;workspace.providers.table.provider&quot;: &quot;Provedor&quot;,</span></span>
+<span id="L495"><span class="lineNum">     495</span> <span class="tlaGNC">          53 :   &quot;workspace.providers.table.apiKey&quot;: &quot;Chave de API&quot;,</span></span>
+<span id="L496"><span class="lineNum">     496</span>              : </span>
+<span id="L497"><span class="lineNum">     497</span> <span class="tlaGNC">          49 :   &quot;workspace.usage.title&quot;: &quot;Histórico de Uso&quot;,</span></span>
+<span id="L498"><span class="lineNum">     498</span> <span class="tlaGNC">          61 :   &quot;workspace.usage.subtitle&quot;: &quot;Uso recente da API e custos.&quot;,</span></span>
+<span id="L499"><span class="lineNum">     499</span> <span class="tlaGNC">          82 :   &quot;workspace.usage.empty&quot;: &quot;Faça sua primeira chamada de API para começar.&quot;,</span></span>
+<span id="L500"><span class="lineNum">     500</span> <span class="tlaGNC">          39 :   &quot;workspace.usage.table.date&quot;: &quot;Data&quot;,</span></span>
+<span id="L501"><span class="lineNum">     501</span> <span class="tlaGNC">          42 :   &quot;workspace.usage.table.model&quot;: &quot;Modelo&quot;,</span></span>
+<span id="L502"><span class="lineNum">     502</span> <span class="tlaGNC">          43 :   &quot;workspace.usage.table.input&quot;: &quot;Entrada&quot;,</span></span>
+<span id="L503"><span class="lineNum">     503</span> <span class="tlaGNC">          45 :   &quot;workspace.usage.table.output&quot;: &quot;Saída&quot;,</span></span>
+<span id="L504"><span class="lineNum">     504</span> <span class="tlaGNC">          40 :   &quot;workspace.usage.table.cost&quot;: &quot;Custo&quot;,</span></span>
+<span id="L505"><span class="lineNum">     505</span> <span class="tlaGNC">          47 :   &quot;workspace.usage.table.session&quot;: &quot;Sessão&quot;,</span></span>
+<span id="L506"><span class="lineNum">     506</span> <span class="tlaGNC">          47 :   &quot;workspace.usage.breakdown.input&quot;: &quot;Entrada&quot;,</span></span>
+<span id="L507"><span class="lineNum">     507</span> <span class="tlaGNC">          60 :   &quot;workspace.usage.breakdown.cacheRead&quot;: &quot;Leitura de Cache&quot;,</span></span>
+<span id="L508"><span class="lineNum">     508</span> <span class="tlaGNC">          61 :   &quot;workspace.usage.breakdown.cacheWrite&quot;: &quot;Escrita em Cache&quot;,</span></span>
+<span id="L509"><span class="lineNum">     509</span> <span class="tlaGNC">          49 :   &quot;workspace.usage.breakdown.output&quot;: &quot;Saída&quot;,</span></span>
+<span id="L510"><span class="lineNum">     510</span> <span class="tlaGNC">          57 :   &quot;workspace.usage.breakdown.reasoning&quot;: &quot;Raciocínio&quot;,</span></span>
+<span id="L511"><span class="lineNum">     511</span> <span class="tlaGNC">          56 :   &quot;workspace.usage.subscription&quot;: &quot;Black (${{amount}})&quot;,</span></span>
+<span id="L512"><span class="lineNum">     512</span> <span class="tlaGNC">          45 :   &quot;workspace.usage.lite&quot;: &quot;Go (${{amount}})&quot;,</span></span>
+<span id="L513"><span class="lineNum">     513</span> <span class="tlaGNC">          47 :   &quot;workspace.usage.byok&quot;: &quot;BYOK (${{amount}})&quot;,</span></span>
+<span id="L514"><span class="lineNum">     514</span>              : </span>
+<span id="L515"><span class="lineNum">     515</span> <span class="tlaGNC">          34 :   &quot;workspace.cost.title&quot;: &quot;Custo&quot;,</span></span>
+<span id="L516"><span class="lineNum">     516</span> <span class="tlaGNC">          71 :   &quot;workspace.cost.subtitle&quot;: &quot;Custos de uso discriminados por modelo.&quot;,</span></span>
+<span id="L517"><span class="lineNum">     517</span> <span class="tlaGNC">          49 :   &quot;workspace.cost.allModels&quot;: &quot;Todos os Modelos&quot;,</span></span>
+<span id="L518"><span class="lineNum">     518</span> <span class="tlaGNC">          46 :   &quot;workspace.cost.allKeys&quot;: &quot;Todas as Chaves&quot;,</span></span>
+<span id="L519"><span class="lineNum">     519</span> <span class="tlaGNC">          50 :   &quot;workspace.cost.deletedSuffix&quot;: &quot;(excluído)&quot;,</span></span>
+<span id="L520"><span class="lineNum">     520</span> <span class="tlaGNC">          92 :   &quot;workspace.cost.empty&quot;: &quot;Nenhum dado de uso disponível para o período selecionado.&quot;,</span></span>
+<span id="L521"><span class="lineNum">     521</span> <span class="tlaGNC">          44 :   &quot;workspace.cost.subscriptionShort&quot;: &quot;ass&quot;,</span></span>
+<span id="L522"><span class="lineNum">     522</span>              : </span>
+<span id="L523"><span class="lineNum">     523</span> <span class="tlaGNC">          42 :   &quot;workspace.keys.title&quot;: &quot;Chaves de API&quot;,</span></span>
+<span id="L524"><span class="lineNum">     524</span> <span class="tlaGNC">          97 :   &quot;workspace.keys.subtitle&quot;: &quot;Gerencie suas chaves de API para acessar os serviços opencode.&quot;,</span></span>
+<span id="L525"><span class="lineNum">     525</span> <span class="tlaGNC">          48 :   &quot;workspace.keys.create&quot;: &quot;Criar Chave de API&quot;,</span></span>
+<span id="L526"><span class="lineNum">     526</span> <span class="tlaGNC">          57 :   &quot;workspace.keys.placeholder&quot;: &quot;Digite o nome da chave&quot;,</span></span>
+<span id="L527"><span class="lineNum">     527</span> <span class="tlaGNC">          70 :   &quot;workspace.keys.empty&quot;: &quot;Crie uma chave de API do opencode Gateway&quot;,</span></span>
+<span id="L528"><span class="lineNum">     528</span> <span class="tlaGNC">          38 :   &quot;workspace.keys.table.name&quot;: &quot;Nome&quot;,</span></span>
+<span id="L529"><span class="lineNum">     529</span> <span class="tlaGNC">          38 :   &quot;workspace.keys.table.key&quot;: &quot;Chave&quot;,</span></span>
+<span id="L530"><span class="lineNum">     530</span> <span class="tlaGNC">          49 :   &quot;workspace.keys.table.createdBy&quot;: &quot;Criado Por&quot;,</span></span>
+<span id="L531"><span class="lineNum">     531</span> <span class="tlaGNC">          51 :   &quot;workspace.keys.table.lastUsed&quot;: &quot;Último Uso&quot;,</span></span>
+<span id="L532"><span class="lineNum">     532</span> <span class="tlaGNC">          53 :   &quot;workspace.keys.copyApiKey&quot;: &quot;Copiar chave de API&quot;,</span></span>
+<span id="L533"><span class="lineNum">     533</span> <span class="tlaGNC">          37 :   &quot;workspace.keys.delete&quot;: &quot;Excluir&quot;,</span></span>
+<span id="L534"><span class="lineNum">     534</span>              : </span>
+<span id="L535"><span class="lineNum">     535</span> <span class="tlaGNC">          39 :   &quot;workspace.members.title&quot;: &quot;Membros&quot;,</span></span>
+<span id="L536"><span class="lineNum">     536</span> <span class="tlaGNC">          89 :   &quot;workspace.members.subtitle&quot;: &quot;Gerencie os membros do workspace e suas permissões.&quot;,</span></span>
+<span id="L537"><span class="lineNum">     537</span> <span class="tlaGNC">          48 :   &quot;workspace.members.invite&quot;: &quot;Convidar Membro&quot;,</span></span>
+<span id="L538"><span class="lineNum">     538</span> <span class="tlaGNC">          48 :   &quot;workspace.members.inviting&quot;: &quot;Convidando...&quot;,</span></span>
+<span id="L539"><span class="lineNum">     539</span> <span class="tlaGNC">          98 :   &quot;workspace.members.beta.beforeLink&quot;: &quot;Workspaces são gratuitos para equipes durante o beta.&quot;,</span></span>
+<span id="L540"><span class="lineNum">     540</span> <span class="tlaGNC">          48 :   &quot;workspace.members.form.invitee&quot;: &quot;Convidado&quot;,</span></span>
+<span id="L541"><span class="lineNum">     541</span> <span class="tlaGNC">          63 :   &quot;workspace.members.form.emailPlaceholder&quot;: &quot;Digite o e-mail&quot;,</span></span>
+<span id="L542"><span class="lineNum">     542</span> <span class="tlaGNC">          48 :   &quot;workspace.members.form.role&quot;: &quot;Função&quot;,</span></span>
+<span id="L543"><span class="lineNum">     543</span> <span class="tlaGNC">          68 :   &quot;workspace.members.form.monthlyLimit&quot;: &quot;Limite de gastos mensais&quot;,</span></span>
+<span id="L544"><span class="lineNum">     544</span> <span class="tlaGNC">          44 :   &quot;workspace.members.noLimit&quot;: &quot;Sem limite&quot;,</span></span>
+<span id="L545"><span class="lineNum">     545</span> <span class="tlaGNC">          53 :   &quot;workspace.members.noLimitLowercase&quot;: &quot;sem limite&quot;,</span></span>
+<span id="L546"><span class="lineNum">     546</span> <span class="tlaGNC">          43 :   &quot;workspace.members.invited&quot;: &quot;convidado&quot;,</span></span>
+<span id="L547"><span class="lineNum">     547</span> <span class="tlaGNC">          37 :   &quot;workspace.members.edit&quot;: &quot;Editar&quot;,</span></span>
+<span id="L548"><span class="lineNum">     548</span> <span class="tlaGNC">          40 :   &quot;workspace.members.delete&quot;: &quot;Excluir&quot;,</span></span>
+<span id="L549"><span class="lineNum">     549</span> <span class="tlaGNC">          44 :   &quot;workspace.members.saving&quot;: &quot;Salvando...&quot;,</span></span>
+<span id="L550"><span class="lineNum">     550</span> <span class="tlaGNC">          37 :   &quot;workspace.members.save&quot;: &quot;Salvar&quot;,</span></span>
+<span id="L551"><span class="lineNum">     551</span> <span class="tlaGNC">          44 :   &quot;workspace.members.table.email&quot;: &quot;E-mail&quot;,</span></span>
+<span id="L552"><span class="lineNum">     552</span> <span class="tlaGNC">          49 :   &quot;workspace.members.table.role&quot;: &quot;Função&quot;,</span></span>
+<span id="L553"><span class="lineNum">     553</span> <span class="tlaGNC">          56 :   &quot;workspace.members.table.monthLimit&quot;: &quot;Limite mensal&quot;,</span></span>
+<span id="L554"><span class="lineNum">     554</span> <span class="tlaGNC">          42 :   &quot;workspace.members.role.admin&quot;: &quot;Admin&quot;,</span></span>
+<span id="L555"><span class="lineNum">     555</span> <span class="tlaGNC">          93 :   &quot;workspace.members.role.adminDescription&quot;: &quot;Pode gerenciar modelos, membros e faturamento&quot;,</span></span>
+<span id="L556"><span class="lineNum">     556</span> <span class="tlaGNC">          44 :   &quot;workspace.members.role.member&quot;: &quot;Membro&quot;,</span></span>
+<span id="L557"><span class="lineNum">     557</span> <span class="tlaGNC">          93 :   &quot;workspace.members.role.memberDescription&quot;: &quot;Só pode gerar chaves de API para si mesmo&quot;,</span></span>
+<span id="L558"><span class="lineNum">     558</span>              : </span>
+<span id="L559"><span class="lineNum">     559</span> <span class="tlaGNC">          52 :   &quot;workspace.settings.title&quot;: &quot;Configurações&quot;,</span></span>
+<span id="L560"><span class="lineNum">     560</span> <span class="tlaGNC">          90 :   &quot;workspace.settings.subtitle&quot;: &quot;Atualize o nome e as preferências do seu workspace.&quot;,</span></span>
+<span id="L561"><span class="lineNum">     561</span> <span class="tlaGNC">          58 :   &quot;workspace.settings.workspaceName&quot;: &quot;Nome do workspace&quot;,</span></span>
+<span id="L562"><span class="lineNum">     562</span> <span class="tlaGNC">          48 :   &quot;workspace.settings.defaultName&quot;: &quot;Padrão&quot;,</span></span>
+<span id="L563"><span class="lineNum">     563</span> <span class="tlaGNC">          50 :   &quot;workspace.settings.updating&quot;: &quot;Atualizando...&quot;,</span></span>
+<span id="L564"><span class="lineNum">     564</span> <span class="tlaGNC">          38 :   &quot;workspace.settings.save&quot;: &quot;Salvar&quot;,</span></span>
+<span id="L565"><span class="lineNum">     565</span> <span class="tlaGNC">          38 :   &quot;workspace.settings.edit&quot;: &quot;Editar&quot;,</span></span>
+<span id="L566"><span class="lineNum">     566</span>              : </span>
+<span id="L567"><span class="lineNum">     567</span> <span class="tlaGNC">          43 :   &quot;workspace.billing.title&quot;: &quot;Faturamento&quot;,</span></span>
+<span id="L568"><span class="lineNum">     568</span> <span class="tlaGNC">          76 :   &quot;workspace.billing.subtitle.beforeLink&quot;: &quot;Gerenciar formas de pagamento.&quot;,</span></span>
+<span id="L569"><span class="lineNum">     569</span> <span class="tlaGNC">          47 :   &quot;workspace.billing.contactUs&quot;: &quot;Contate-nos&quot;,</span></span>
+<span id="L570"><span class="lineNum">     570</span> <span class="tlaGNC">          79 :   &quot;workspace.billing.subtitle.afterLink&quot;: &quot;se você tiver alguma dúvida.&quot;,</span></span>
+<span id="L571"><span class="lineNum">     571</span> <span class="tlaGNC">          52 :   &quot;workspace.billing.currentBalance&quot;: &quot;Saldo Atual&quot;,</span></span>
+<span id="L572"><span class="lineNum">     572</span> <span class="tlaGNC">          41 :   &quot;workspace.billing.add&quot;: &quot;Adicionar $&quot;,</span></span>
+<span id="L573"><span class="lineNum">     573</span> <span class="tlaGNC">          52 :   &quot;workspace.billing.enterAmount&quot;: &quot;Digite o valor&quot;,</span></span>
+<span id="L574"><span class="lineNum">     574</span> <span class="tlaGNC">          47 :   &quot;workspace.billing.loading&quot;: &quot;Carregando...&quot;,</span></span>
+<span id="L575"><span class="lineNum">     575</span> <span class="tlaGNC">          45 :   &quot;workspace.billing.addAction&quot;: &quot;Adicionar&quot;,</span></span>
+<span id="L576"><span class="lineNum">     576</span> <span class="tlaGNC">          52 :   &quot;workspace.billing.addBalance&quot;: &quot;Adicionar Saldo&quot;,</span></span>
+<span id="L577"><span class="lineNum">     577</span> <span class="tlaGNC">          39 :   &quot;workspace.billing.alipay&quot;: &quot;Alipay&quot;,</span></span>
+<span id="L578"><span class="lineNum">     578</span> <span class="tlaGNC">          43 :   &quot;workspace.billing.wechat&quot;: &quot;WeChat Pay&quot;,</span></span>
+<span id="L579"><span class="lineNum">     579</span> <span class="tlaGNC">          60 :   &quot;workspace.billing.linkedToStripe&quot;: &quot;Vinculado ao Stripe&quot;,</span></span>
+<span id="L580"><span class="lineNum">     580</span> <span class="tlaGNC">          42 :   &quot;workspace.billing.manage&quot;: &quot;Gerenciar&quot;,</span></span>
+<span id="L581"><span class="lineNum">     581</span> <span class="tlaGNC">          51 :   &quot;workspace.billing.enable&quot;: &quot;Ativar Faturamento&quot;,</span></span>
+<span id="L582"><span class="lineNum">     582</span>              : </span>
+<span id="L583"><span class="lineNum">     583</span> <span class="tlaGNC">          50 :   &quot;workspace.monthlyLimit.title&quot;: &quot;Limite Mensal&quot;,</span></span>
+<span id="L584"><span class="lineNum">     584</span> <span class="tlaGNC">          86 :   &quot;workspace.monthlyLimit.subtitle&quot;: &quot;Defina um limite de uso mensal para sua conta.&quot;,</span></span>
+<span id="L585"><span class="lineNum">     585</span> <span class="tlaGNC">          45 :   &quot;workspace.monthlyLimit.placeholder&quot;: &quot;50&quot;,</span></span>
+<span id="L586"><span class="lineNum">     586</span> <span class="tlaGNC">          51 :   &quot;workspace.monthlyLimit.setting&quot;: &quot;Definindo...&quot;,</span></span>
+<span id="L587"><span class="lineNum">     587</span> <span class="tlaGNC">          42 :   &quot;workspace.monthlyLimit.set&quot;: &quot;Definir&quot;,</span></span>
+<span id="L588"><span class="lineNum">     588</span> <span class="tlaGNC">          49 :   &quot;workspace.monthlyLimit.edit&quot;: &quot;Editar Limite&quot;,</span></span>
+<span id="L589"><span class="lineNum">     589</span> <span class="tlaGNC">          69 :   &quot;workspace.monthlyLimit.noLimit&quot;: &quot;Nenhum limite de uso definido.&quot;,</span></span>
+<span id="L590"><span class="lineNum">     590</span> <span class="tlaGNC">          70 :   &quot;workspace.monthlyLimit.currentUsage.beforeMonth&quot;: &quot;Uso atual para&quot;,</span></span>
+<span id="L591"><span class="lineNum">     591</span> <span class="tlaGNC">          63 :   &quot;workspace.monthlyLimit.currentUsage.beforeAmount&quot;: &quot;é $&quot;,</span></span>
+<span id="L592"><span class="lineNum">     592</span>              : </span>
+<span id="L593"><span class="lineNum">     593</span> <span class="tlaGNC">          45 :   &quot;workspace.redeem.title&quot;: &quot;Resgatar Cupom&quot;,</span></span>
+<span id="L594"><span class="lineNum">     594</span> <span class="tlaGNC">         102 :   &quot;workspace.redeem.subtitle&quot;: &quot;Resgate um código de cupom para receber créditos ou vantagens.&quot;,</span></span>
+<span id="L595"><span class="lineNum">     595</span> <span class="tlaGNC">          64 :   &quot;workspace.redeem.placeholder&quot;: &quot;Digite o código do cupom&quot;,</span></span>
+<span id="L596"><span class="lineNum">     596</span> <span class="tlaGNC">          40 :   &quot;workspace.redeem.redeem&quot;: &quot;Resgatar&quot;,</span></span>
+<span id="L597"><span class="lineNum">     597</span> <span class="tlaGNC">          48 :   &quot;workspace.redeem.redeeming&quot;: &quot;Resgatando...&quot;,</span></span>
+<span id="L598"><span class="lineNum">     598</span> <span class="tlaGNC">          61 :   &quot;workspace.redeem.success&quot;: &quot;Cupom resgatado com sucesso.&quot;,</span></span>
+<span id="L599"><span class="lineNum">     599</span>              : </span>
+<span id="L600"><span class="lineNum">     600</span> <span class="tlaGNC">          52 :   &quot;workspace.reload.title&quot;: &quot;Recarga Automática&quot;,</span></span>
+<span id="L601"><span class="lineNum">     601</span> <span class="tlaGNC">          72 :   &quot;workspace.reload.disabled.before&quot;: &quot;A recarga automática está&quot;,</span></span>
+<span id="L602"><span class="lineNum">     602</span> <span class="tlaGNC">          50 :   &quot;workspace.reload.disabled.state&quot;: &quot;desativada&quot;,</span></span>
+<span id="L603"><span class="lineNum">     603</span> <span class="tlaGNC">         107 :   &quot;workspace.reload.disabled.after&quot;: &quot;Ative para recarregar automaticamente quando o saldo estiver baixo.&quot;,</span></span>
+<span id="L604"><span class="lineNum">     604</span> <span class="tlaGNC">          71 :   &quot;workspace.reload.enabled.before&quot;: &quot;A recarga automática está&quot;,</span></span>
+<span id="L605"><span class="lineNum">     605</span> <span class="tlaGNC">          46 :   &quot;workspace.reload.enabled.state&quot;: &quot;ativada&quot;,</span></span>
+<span id="L606"><span class="lineNum">     606</span> <span class="tlaGNC">          54 :   &quot;workspace.reload.enabled.middle&quot;: &quot;Recarregaremos&quot;,</span></span>
+<span id="L607"><span class="lineNum">     607</span> <span class="tlaGNC">          60 :   &quot;workspace.reload.processingFee&quot;: &quot;taxa de processamento&quot;,</span></span>
+<span id="L608"><span class="lineNum">     608</span> <span class="tlaGNC">          61 :   &quot;workspace.reload.enabled.after&quot;: &quot;quando o saldo atingir&quot;,</span></span>
+<span id="L609"><span class="lineNum">     609</span> <span class="tlaGNC">          36 :   &quot;workspace.reload.edit&quot;: &quot;Editar&quot;,</span></span>
+<span id="L610"><span class="lineNum">     610</span> <span class="tlaGNC">          38 :   &quot;workspace.reload.enable&quot;: &quot;Ativar&quot;,</span></span>
+<span id="L611"><span class="lineNum">     611</span> <span class="tlaGNC">          70 :   &quot;workspace.reload.enableAutoReload&quot;: &quot;Ativar Recarga Automática&quot;,</span></span>
+<span id="L612"><span class="lineNum">     612</span> <span class="tlaGNC">          50 :   &quot;workspace.reload.reloadAmount&quot;: &quot;Recarregar $&quot;,</span></span>
+<span id="L613"><span class="lineNum">     613</span> <span class="tlaGNC">          68 :   &quot;workspace.reload.whenBalanceReaches&quot;: &quot;Quando o saldo atingir $&quot;,</span></span>
+<span id="L614"><span class="lineNum">     614</span> <span class="tlaGNC">          43 :   &quot;workspace.reload.saving&quot;: &quot;Salvando...&quot;,</span></span>
+<span id="L615"><span class="lineNum">     615</span> <span class="tlaGNC">          36 :   &quot;workspace.reload.save&quot;: &quot;Salvar&quot;,</span></span>
+<span id="L616"><span class="lineNum">     616</span> <span class="tlaGNC">          51 :   &quot;workspace.reload.failedAt&quot;: &quot;Recarga falhou em&quot;,</span></span>
+<span id="L617"><span class="lineNum">     617</span> <span class="tlaGNC">          39 :   &quot;workspace.reload.reason&quot;: &quot;Motivo:&quot;,</span></span>
+<span id="L618"><span class="lineNum">     618</span> <span class="tlaGNC">         106 :   &quot;workspace.reload.updatePaymentMethod&quot;: &quot;Por favor, atualize sua forma de pagamento e tente novamente.&quot;,</span></span>
+<span id="L619"><span class="lineNum">     619</span> <span class="tlaGNC">          55 :   &quot;workspace.reload.retrying&quot;: &quot;Tentando novamente...&quot;,</span></span>
+<span id="L620"><span class="lineNum">     620</span> <span class="tlaGNC">          47 :   &quot;workspace.reload.retry&quot;: &quot;Tentar novamente&quot;,</span></span>
+<span id="L621"><span class="lineNum">     621</span> <span class="tlaGNC">          62 :   &quot;workspace.reload.error.paymentFailed&quot;: &quot;Pagamento falhou.&quot;,</span></span>
+<span id="L622"><span class="lineNum">     622</span>              : </span>
+<span id="L623"><span class="lineNum">     623</span> <span class="tlaGNC">          59 :   &quot;workspace.payments.title&quot;: &quot;Histórico de Pagamentos&quot;,</span></span>
+<span id="L624"><span class="lineNum">     624</span> <span class="tlaGNC">          75 :   &quot;workspace.payments.subtitle&quot;: &quot;Transações de pagamento recentes.&quot;,</span></span>
+<span id="L625"><span class="lineNum">     625</span> <span class="tlaGNC">          42 :   &quot;workspace.payments.table.date&quot;: &quot;Data&quot;,</span></span>
+<span id="L626"><span class="lineNum">     626</span> <span class="tlaGNC">          58 :   &quot;workspace.payments.table.paymentId&quot;: &quot;ID do Pagamento&quot;,</span></span>
+<span id="L627"><span class="lineNum">     627</span> <span class="tlaGNC">          45 :   &quot;workspace.payments.table.amount&quot;: &quot;Valor&quot;,</span></span>
+<span id="L628"><span class="lineNum">     628</span> <span class="tlaGNC">          47 :   &quot;workspace.payments.table.receipt&quot;: &quot;Recibo&quot;,</span></span>
+<span id="L629"><span class="lineNum">     629</span> <span class="tlaGNC">          49 :   &quot;workspace.payments.type.credit&quot;: &quot;crédito&quot;,</span></span>
+<span id="L630"><span class="lineNum">     630</span> <span class="tlaGNC">          55 :   &quot;workspace.payments.type.subscription&quot;: &quot;assinatura&quot;,</span></span>
+<span id="L631"><span class="lineNum">     631</span> <span class="tlaGNC">          35 :   &quot;workspace.payments.view&quot;: &quot;Ver&quot;,</span></span>
+<span id="L632"><span class="lineNum">     632</span>              : </span>
+<span id="L633"><span class="lineNum">     633</span> <span class="tlaGNC">          45 :   &quot;workspace.black.loading&quot;: &quot;Carregando...&quot;,</span></span>
+<span id="L634"><span class="lineNum">     634</span> <span class="tlaGNC">          36 :   &quot;workspace.black.time.day&quot;: &quot;dia&quot;,</span></span>
+<span id="L635"><span class="lineNum">     635</span> <span class="tlaGNC">          38 :   &quot;workspace.black.time.days&quot;: &quot;dias&quot;,</span></span>
+<span id="L636"><span class="lineNum">     636</span> <span class="tlaGNC">          38 :   &quot;workspace.black.time.hour&quot;: &quot;hora&quot;,</span></span>
+<span id="L637"><span class="lineNum">     637</span> <span class="tlaGNC">          40 :   &quot;workspace.black.time.hours&quot;: &quot;horas&quot;,</span></span>
+<span id="L638"><span class="lineNum">     638</span> <span class="tlaGNC">          42 :   &quot;workspace.black.time.minute&quot;: &quot;minuto&quot;,</span></span>
+<span id="L639"><span class="lineNum">     639</span> <span class="tlaGNC">          44 :   &quot;workspace.black.time.minutes&quot;: &quot;minutos&quot;,</span></span>
+<span id="L640"><span class="lineNum">     640</span> <span class="tlaGNC">          55 :   &quot;workspace.black.time.fewSeconds&quot;: &quot;alguns segundos&quot;,</span></span>
+<span id="L641"><span class="lineNum">     641</span> <span class="tlaGNC">          53 :   &quot;workspace.black.subscription.title&quot;: &quot;Assinatura&quot;,</span></span>
+<span id="L642"><span class="lineNum">     642</span> <span class="tlaGNC">         102 :   &quot;workspace.black.subscription.message&quot;: &quot;Você assina o OpenCode Black por ${{plan}} por mês.&quot;,</span></span>
+<span id="L643"><span class="lineNum">     643</span> <span class="tlaGNC">          64 :   &quot;workspace.black.subscription.manage&quot;: &quot;Gerenciar Assinatura&quot;,</span></span>
+<span id="L644"><span class="lineNum">     644</span> <span class="tlaGNC">          64 :   &quot;workspace.black.subscription.rollingUsage&quot;: &quot;Uso de 5 horas&quot;,</span></span>
+<span id="L645"><span class="lineNum">     645</span> <span class="tlaGNC">          60 :   &quot;workspace.black.subscription.weeklyUsage&quot;: &quot;Uso Semanal&quot;,</span></span>
+<span id="L646"><span class="lineNum">     646</span> <span class="tlaGNC">          57 :   &quot;workspace.black.subscription.resetsIn&quot;: &quot;Reinicia em&quot;,</span></span>
+<span id="L647"><span class="lineNum">     647</span> <span class="tlaGNC">         109 :   &quot;workspace.black.subscription.useBalance&quot;: &quot;Use seu saldo disponível após atingir os limites de uso&quot;,</span></span>
+<span id="L648"><span class="lineNum">     648</span> <span class="tlaGNC">          54 :   &quot;workspace.black.waitlist.title&quot;: &quot;Lista de Espera&quot;,</span></span>
+<span id="L649"><span class="lineNum">     649</span> <span class="tlaGNC">         127 :   &quot;workspace.black.waitlist.joined&quot;: &quot;Você está na lista de espera para o plano OpenCode Black de ${{plan}} por mês.&quot;,</span></span>
+<span id="L650"><span class="lineNum">     650</span> <span class="tlaGNC">         126 :   &quot;workspace.black.waitlist.ready&quot;: &quot;Estamos prontos para inscrever você no plano OpenCode Black de ${{plan}} por mês.&quot;,</span></span>
+<span id="L651"><span class="lineNum">     651</span> <span class="tlaGNC">          62 :   &quot;workspace.black.waitlist.leave&quot;: &quot;Sair da Lista de Espera&quot;,</span></span>
+<span id="L652"><span class="lineNum">     652</span> <span class="tlaGNC">          50 :   &quot;workspace.black.waitlist.leaving&quot;: &quot;Saindo...&quot;,</span></span>
+<span id="L653"><span class="lineNum">     653</span> <span class="tlaGNC">          42 :   &quot;workspace.black.waitlist.left&quot;: &quot;Saiu&quot;,</span></span>
+<span id="L654"><span class="lineNum">     654</span> <span class="tlaGNC">          52 :   &quot;workspace.black.waitlist.enroll&quot;: &quot;Inscrever-se&quot;,</span></span>
+<span id="L655"><span class="lineNum">     655</span> <span class="tlaGNC">          60 :   &quot;workspace.black.waitlist.enrolling&quot;: &quot;Inscrevendo-se...&quot;,</span></span>
+<span id="L656"><span class="lineNum">     656</span> <span class="tlaGNC">          50 :   &quot;workspace.black.waitlist.enrolled&quot;: &quot;Inscrito&quot;,</span></span>
+<span id="L657"><span class="lineNum">     657</span> <span class="tlaGNC">          39 :   &quot;workspace.black.waitlist.enrollNote&quot;:</span></span>
+<span id="L658"><span class="lineNum">     658</span> <span class="tlaGNC">         108 :     &quot;Ao clicar em Inscrever-se, sua assinatura começará imediatamente e seu cartão será cobrado.&quot;,</span></span>
+<span id="L659"><span class="lineNum">     659</span>              : </span>
+<span id="L660"><span class="lineNum">     660</span> <span class="tlaGNC">          44 :   &quot;workspace.lite.loading&quot;: &quot;Carregando...&quot;,</span></span>
+<span id="L661"><span class="lineNum">     661</span> <span class="tlaGNC">          35 :   &quot;workspace.lite.time.day&quot;: &quot;dia&quot;,</span></span>
+<span id="L662"><span class="lineNum">     662</span> <span class="tlaGNC">          37 :   &quot;workspace.lite.time.days&quot;: &quot;dias&quot;,</span></span>
+<span id="L663"><span class="lineNum">     663</span> <span class="tlaGNC">          37 :   &quot;workspace.lite.time.hour&quot;: &quot;hora&quot;,</span></span>
+<span id="L664"><span class="lineNum">     664</span> <span class="tlaGNC">          39 :   &quot;workspace.lite.time.hours&quot;: &quot;horas&quot;,</span></span>
+<span id="L665"><span class="lineNum">     665</span> <span class="tlaGNC">          41 :   &quot;workspace.lite.time.minute&quot;: &quot;minuto&quot;,</span></span>
+<span id="L666"><span class="lineNum">     666</span> <span class="tlaGNC">          43 :   &quot;workspace.lite.time.minutes&quot;: &quot;minutos&quot;,</span></span>
+<span id="L667"><span class="lineNum">     667</span> <span class="tlaGNC">          54 :   &quot;workspace.lite.time.fewSeconds&quot;: &quot;alguns segundos&quot;,</span></span>
+<span id="L668"><span class="lineNum">     668</span> <span class="tlaGNC">          73 :   &quot;workspace.lite.subscription.message&quot;: &quot;Você assina o OpenCode Go.&quot;,</span></span>
+<span id="L669"><span class="lineNum">     669</span> <span class="tlaGNC">          63 :   &quot;workspace.lite.subscription.manage&quot;: &quot;Gerenciar Assinatura&quot;,</span></span>
+<span id="L670"><span class="lineNum">     670</span> <span class="tlaGNC">          64 :   &quot;workspace.lite.subscription.rollingUsage&quot;: &quot;Uso Contínuo&quot;,</span></span>
+<span id="L671"><span class="lineNum">     671</span> <span class="tlaGNC">          59 :   &quot;workspace.lite.subscription.weeklyUsage&quot;: &quot;Uso Semanal&quot;,</span></span>
+<span id="L672"><span class="lineNum">     672</span> <span class="tlaGNC">          59 :   &quot;workspace.lite.subscription.monthlyUsage&quot;: &quot;Uso Mensal&quot;,</span></span>
+<span id="L673"><span class="lineNum">     673</span> <span class="tlaGNC">          56 :   &quot;workspace.lite.subscription.resetsIn&quot;: &quot;Reinicia em&quot;,</span></span>
+<span id="L674"><span class="lineNum">     674</span> <span class="tlaGNC">         108 :   &quot;workspace.lite.subscription.useBalance&quot;: &quot;Use seu saldo disponível após atingir os limites de uso&quot;,</span></span>
+<span id="L675"><span class="lineNum">     675</span> <span class="tlaGNC">          46 :   &quot;workspace.lite.subscription.selectProvider&quot;:</span></span>
+<span id="L676"><span class="lineNum">     676</span> <span class="tlaGNC">         105 :     'Selecione &quot;OpenCode Go&quot; como provedor na sua configuração do opencode para usar os modelos Go.',</span></span>
+<span id="L677"><span class="lineNum">     677</span> <span class="tlaGNC">          49 :   &quot;workspace.lite.providers.title&quot;: &quot;Provedores&quot;,</span></span>
+<span id="L678"><span class="lineNum">     678</span> <span class="tlaGNC">         101 :   &quot;workspace.lite.providers.description&quot;: &quot;Controle quais provedores são usados para roteamento.&quot;,</span></span>
+<span id="L679"><span class="lineNum">     679</span> <span class="tlaGNC">          76 :   &quot;workspace.lite.providers.useChina&quot;: &quot;Ativar modelos hospedados na China&quot;,</span></span>
+<span id="L680"><span class="lineNum">     680</span> <span class="tlaGNC">          32 :   &quot;workspace.lite.black.message&quot;:</span></span>
+<span id="L681"><span class="lineNum">     681</span> <span class="tlaGNC">         150 :     &quot;Você está atualmente inscrito no OpenCode Black ou na lista de espera. Por favor, cancele a assinatura primeiro se desejar mudar para o Go.&quot;,</span></span>
+<span id="L682"><span class="lineNum">     682</span> <span class="tlaGNC">          32 :   &quot;workspace.lite.other.message&quot;:</span></span>
+<span id="L683"><span class="lineNum">     683</span> <span class="tlaGNC">         106 :     &quot;Outro membro neste workspace já assina o OpenCode Go. Apenas um membro por workspace pode assinar.&quot;,</span></span>
+<span id="L684"><span class="lineNum">     684</span> <span class="tlaGNC">          36 :   &quot;workspace.lite.promo.description&quot;:</span></span>
+<span id="L685"><span class="lineNum">     685</span> <span class="tlaGNC">         170 :     &quot;O OpenCode Go começa em {{price}}, depois $10/mês, e oferece acesso confiável a modelos de codificação abertos populares com limites de uso generosos.&quot;,</span></span>
+<span id="L686"><span class="lineNum">     686</span> <span class="tlaGNC">          56 :   &quot;workspace.lite.promo.price&quot;: &quot;$5 no primeiro mês&quot;,</span></span>
+<span id="L687"><span class="lineNum">     687</span> <span class="tlaGNC">          66 :   &quot;workspace.lite.promo.modelsTitle&quot;: &quot;O que está incluído&quot;,</span></span>
+<span id="L688"><span class="lineNum">     688</span> <span class="tlaGNC">          31 :   &quot;workspace.lite.promo.footer&quot;:</span></span>
+<span id="L689"><span class="lineNum">     689</span> <span class="tlaGNC">         222 :     &quot;O plano foi desenvolvido principalmente para usuários internacionais e oferece acesso global estável. Os preços e limites de uso podem mudar à medida que aprendemos com o uso inicial e o feedback recebido.&quot;,</span></span>
+<span id="L690"><span class="lineNum">     690</span> <span class="tlaGNC">          49 :   &quot;workspace.lite.promo.subscribe&quot;: &quot;Assinar Go&quot;,</span></span>
+<span id="L691"><span class="lineNum">     691</span> <span class="tlaGNC">          58 :   &quot;workspace.lite.promo.subscribing&quot;: &quot;Redirecionando...&quot;,</span></span>
+<span id="L692"><span class="lineNum">     692</span> <span class="tlaGNC">          72 :   &quot;workspace.lite.promo.otherMethods&quot;: &quot;Outros métodos de pagamento&quot;,</span></span>
+<span id="L693"><span class="lineNum">     693</span> <span class="tlaGNC">          75 :   &quot;workspace.lite.promo.selectMethod&quot;: &quot;Selecionar método de pagamento&quot;,</span></span>
+<span id="L694"><span class="lineNum">     694</span>              : </span>
+<span id="L695"><span class="lineNum">     695</span> <span class="tlaGNC">          47 :   &quot;workspace.referral.copyLink&quot;: &quot;Copiar link&quot;,</span></span>
+<span id="L696"><span class="lineNum">     696</span> <span class="tlaGNC">          41 :   &quot;workspace.referral.copied&quot;: &quot;Copiado&quot;,</span></span>
+<span id="L697"><span class="lineNum">     697</span> <span class="tlaGNC">          56 :   &quot;workspace.referral.overview.title&quot;: &quot;Convide amigos&quot;,</span></span>
+<span id="L698"><span class="lineNum">     698</span> <span class="tlaGNC">         102 :   &quot;workspace.referral.overview.subtitle&quot;: &quot;Ganhe $5 quando um amigo assinar. Ele também ganha $5.&quot;,</span></span>
+<span id="L699"><span class="lineNum">     699</span> <span class="tlaGNC">          85 :   &quot;workspace.referral.instructions.share&quot;: &quot;Compartilhe seu link de indicação&quot;,</span></span>
+<span id="L700"><span class="lineNum">     700</span> <span class="tlaGNC">          79 :   &quot;workspace.referral.instructions.subscribe&quot;: &quot;Seu amigo entra e assina o Go&quot;,</span></span>
+<span id="L701"><span class="lineNum">     701</span> <span class="tlaGNC">          41 :   &quot;workspace.referral.instructions.claim&quot;:</span></span>
+<span id="L702"><span class="lineNum">     702</span> <span class="tlaGNC">          95 :     &quot;Vocês dois ganham um crédito de uso de $5 para aplicar aos seus limites de uso do Go&quot;,</span></span>
+<span id="L703"><span class="lineNum">     703</span> <span class="tlaGNC">          71 :   &quot;workspace.referral.rewards.title&quot;: &quot;Recompensas de indicação&quot;,</span></span>
+<span id="L704"><span class="lineNum">     704</span> <span class="tlaGNC">         121 :   &quot;workspace.referral.rewards.description&quot;: &quot;Aplique os créditos de indicação disponíveis no seu uso do Go.&quot;,</span></span>
+<span id="L705"><span class="lineNum">     705</span> <span class="tlaGNC">          90 :   &quot;workspace.referral.rewards.subtitle&quot;: &quot;{{applied}} / {{total}} recompensas aplicadas.&quot;,</span></span>
+<span id="L706"><span class="lineNum">     706</span> <span class="tlaGNC">          91 :   &quot;workspace.referral.rewards.empty&quot;: &quot;Ainda não há recompensas de indicação.&quot;,</span></span>
+<span id="L707"><span class="lineNum">     707</span> <span class="tlaGNC">          50 :   &quot;workspace.referral.table.reward&quot;: &quot;Recompensa&quot;,</span></span>
+<span id="L708"><span class="lineNum">     708</span> <span class="tlaGNC">          57 :   &quot;workspace.referral.table.referral&quot;: &quot;Descrição&quot;,</span></span>
+<span id="L709"><span class="lineNum">     709</span> <span class="tlaGNC">          42 :   &quot;workspace.referral.table.date&quot;: &quot;Data&quot;,</span></span>
+<span id="L710"><span class="lineNum">     710</span> <span class="tlaGNC">          72 :   &quot;workspace.referral.reward.description.inviter&quot;: &quot;Convidou {{email}}&quot;,</span></span>
+<span id="L711"><span class="lineNum">     711</span> <span class="tlaGNC">          77 :   &quot;workspace.referral.reward.description.invitee&quot;: &quot;Convidado por {{email}}&quot;,</span></span>
+<span id="L712"><span class="lineNum">     712</span> <span class="tlaGNC">          80 :   &quot;workspace.referral.reward.action.subscribeUnlock&quot;: &quot;Assine para desbloquear&quot;,</span></span>
+<span id="L713"><span class="lineNum">     713</span> <span class="tlaGNC">          60 :   &quot;workspace.referral.reward.action.view&quot;: &quot;Ver recompensa&quot;,</span></span>
+<span id="L714"><span class="lineNum">     714</span> <span class="tlaGNC">          68 :   &quot;workspace.referral.reward.action.applied&quot;: &quot;Recompensa aplicada&quot;,</span></span>
+<span id="L715"><span class="lineNum">     715</span> <span class="tlaGNC">          78 :   &quot;workspace.referral.reward.source.pendingInviter&quot;: &quot;Aguardando ele assinar&quot;,</span></span>
+<span id="L716"><span class="lineNum">     716</span> <span class="tlaGNC">          92 :   &quot;workspace.referral.reward.source.pendingInvitee&quot;: &quot;Assine para desbloquear a recompensa&quot;,</span></span>
+<span id="L717"><span class="lineNum">     717</span> <span class="tlaGNC">          78 :   &quot;workspace.referral.reward.source.available&quot;: &quot;Recompensa pronta para usar&quot;,</span></span>
+<span id="L718"><span class="lineNum">     718</span> <span class="tlaGNC">          68 :   &quot;workspace.referral.reward.source.applied&quot;: &quot;Recompensa aplicada&quot;,</span></span>
+<span id="L719"><span class="lineNum">     719</span> <span class="tlaGNC">          68 :   &quot;workspace.referral.reward.status.applied&quot;: &quot;Recompensa aplicada&quot;,</span></span>
+<span id="L720"><span class="lineNum">     720</span> <span class="tlaGNC">          79 :   &quot;workspace.referral.reward.status.pendingInviter&quot;: &quot;Assine para desbloquear&quot;,</span></span>
+<span id="L721"><span class="lineNum">     721</span> <span class="tlaGNC">          79 :   &quot;workspace.referral.reward.status.pendingInvitee&quot;: &quot;Assine para desbloquear&quot;,</span></span>
+<span id="L722"><span class="lineNum">     722</span> <span class="tlaGNC">          61 :   &quot;workspace.referral.apply.noGo&quot;: &quot;Assine para desbloquear&quot;,</span></span>
+<span id="L723"><span class="lineNum">     723</span> <span class="tlaGNC">          55 :   &quot;workspace.referral.apply.preview&quot;: &quot;Ver recompensa&quot;,</span></span>
+<span id="L724"><span class="lineNum">     724</span> <span class="tlaGNC">          47 :   &quot;workspace.referral.apply.action&quot;: &quot;Aplicar&quot;,</span></span>
+<span id="L725"><span class="lineNum">     725</span> <span class="tlaGNC">          64 :   &quot;workspace.referral.apply.confirmTitle&quot;: &quot;Aplicar recompensa&quot;,</span></span>
+<span id="L726"><span class="lineNum">     726</span> <span class="tlaGNC">         105 :   &quot;workspace.referral.apply.confirmBody&quot;: &quot;Aplique {{amount}} para reduzir o uso atual deste workspace.&quot;,</span></span>
+<span id="L727"><span class="lineNum">     727</span> <span class="tlaGNC">          54 :   &quot;workspace.referral.apply.confirmAction&quot;: &quot;Aplicar&quot;,</span></span>
+<span id="L728"><span class="lineNum">     728</span>              : </span>
+<span id="L729"><span class="lineNum">     729</span> <span class="tlaGNC">          40 :   &quot;download.title&quot;: &quot;OpenCode | Baixar&quot;,</span></span>
+<span id="L730"><span class="lineNum">     730</span> <span class="tlaGNC">          78 :   &quot;download.meta.description&quot;: &quot;Baixe o OpenCode para macOS, Windows e Linux&quot;,</span></span>
+<span id="L731"><span class="lineNum">     731</span> <span class="tlaGNC">          51 :   &quot;download.hero.title&quot;: &quot;Baixar OpenCode Desktop&quot;,</span></span>
+<span id="L732"><span class="lineNum">     732</span> <span class="tlaGNC">          80 :   &quot;download.hero.subtitle&quot;: &quot;Disponível em Beta para macOS, Windows e Linux&quot;,</span></span>
+<span id="L733"><span class="lineNum">     733</span> <span class="tlaGNC">          47 :   &quot;download.hero.button&quot;: &quot;Baixar para {{os}}&quot;,</span></span>
+<span id="L734"><span class="lineNum">     734</span> <span class="tlaGNC">          51 :   &quot;download.section.terminal&quot;: &quot;OpenCode Terminal&quot;,</span></span>
+<span id="L735"><span class="lineNum">     735</span> <span class="tlaGNC">          49 :   &quot;download.section.desktop&quot;: &quot;OpenCode Desktop&quot;,</span></span>
+<span id="L736"><span class="lineNum">     736</span> <span class="tlaGNC">          57 :   &quot;download.section.extensions&quot;: &quot;Extensões OpenCode&quot;,</span></span>
+<span id="L737"><span class="lineNum">     737</span> <span class="tlaGNC">          64 :   &quot;download.section.integrations&quot;: &quot;Integrações OpenCode&quot;,</span></span>
+<span id="L738"><span class="lineNum">     738</span> <span class="tlaGNC">          39 :   &quot;download.action.download&quot;: &quot;Baixar&quot;,</span></span>
+<span id="L739"><span class="lineNum">     739</span> <span class="tlaGNC">          40 :   &quot;download.action.install&quot;: &quot;Instalar&quot;,</span></span>
+<span id="L740"><span class="lineNum">     740</span>              : </span>
+<span id="L741"><span class="lineNum">     741</span> <span class="tlaGNC">          65 :   &quot;download.platform.macosAppleSilicon&quot;: &quot;macOS (Apple Silicon)&quot;,</span></span>
+<span id="L742"><span class="lineNum">     742</span> <span class="tlaGNC">          50 :   &quot;download.platform.macosIntel&quot;: &quot;macOS (Intel)&quot;,</span></span>
+<span id="L743"><span class="lineNum">     743</span> <span class="tlaGNC">          50 :   &quot;download.platform.windowsX64&quot;: &quot;Windows (x64)&quot;,</span></span>
+<span id="L744"><span class="lineNum">     744</span> <span class="tlaGNC">          47 :   &quot;download.platform.linuxDeb&quot;: &quot;Linux (.deb)&quot;,</span></span>
+<span id="L745"><span class="lineNum">     745</span> <span class="tlaGNC">          47 :   &quot;download.platform.linuxRpm&quot;: &quot;Linux (.rpm)&quot;,</span></span>
+<span id="L746"><span class="lineNum">     746</span>              : </span>
+<span id="L747"><span class="lineNum">     747</span> <span class="tlaGNC">          31 :   &quot;download.faq.a3.beforeLocal&quot;:</span></span>
+<span id="L748"><span class="lineNum">     748</span> <span class="tlaGNC">         177 :     &quot;Não necessariamente, mas provavelmente. Você precisará de uma assinatura de IA se quiser conectar o OpenCode a um provedor pago, embora você possa trabalhar com&quot;,</span></span>
+<span id="L749"><span class="lineNum">     749</span> <span class="tlaGNC">          48 :   &quot;download.faq.a3.localLink&quot;: &quot;modelos locais&quot;,</span></span>
+<span id="L750"><span class="lineNum">     750</span> <span class="tlaGNC">         101 :   &quot;download.faq.a3.afterLocal.beforeZen&quot;: &quot;de graça. Embora incentivemos os usuários a usar o&quot;,</span></span>
+<span id="L751"><span class="lineNum">     751</span> <span class="tlaGNC">          28 :   &quot;download.faq.a3.afterZen&quot;:</span></span>
+<span id="L752"><span class="lineNum">     752</span> <span class="tlaGNC">          94 :     &quot;, o OpenCode funciona com todos os provedores populares, como OpenAI, Anthropic, xAI etc.&quot;,</span></span>
+<span id="L753"><span class="lineNum">     753</span>              : </span>
+<span id="L754"><span class="lineNum">     754</span> <span class="tlaGNC">          67 :   &quot;download.faq.a5.p1&quot;: &quot;O OpenCode é 100% gratuito para usar.&quot;,</span></span>
+<span id="L755"><span class="lineNum">     755</span> <span class="tlaGNC">          32 :   &quot;download.faq.a5.p2.beforeZen&quot;:</span></span>
+<span id="L756"><span class="lineNum">     756</span> <span class="tlaGNC">         167 :     &quot;Quaisquer custos adicionais virão da sua assinatura de um provedor de modelo. Embora o OpenCode funcione com qualquer provedor de modelo, recomendamos o uso do&quot;,</span></span>
+<span id="L757"><span class="lineNum">     757</span> <span class="tlaGNC">          37 :   &quot;download.faq.a5.p2.afterZen&quot;: &quot;.&quot;,</span></span>
+<span id="L758"><span class="lineNum">     758</span>              : </span>
+<span id="L759"><span class="lineNum">     759</span> <span class="tlaGNC">          22 :   &quot;download.faq.a6.p1&quot;:</span></span>
+<span id="L760"><span class="lineNum">     760</span> <span class="tlaGNC">         118 :     &quot;Seus dados e informações só são armazenados quando você cria links compartilháveis no OpenCode.&quot;,</span></span>
+<span id="L761"><span class="lineNum">     761</span> <span class="tlaGNC">          55 :   &quot;download.faq.a6.p2.beforeShare&quot;: &quot;Saiba mais sobre&quot;,</span></span>
+<span id="L762"><span class="lineNum">     762</span> <span class="tlaGNC">          64 :   &quot;download.faq.a6.shareLink&quot;: &quot;páginas de compartilhamento&quot;,</span></span>
+<span id="L763"><span class="lineNum">     763</span>              : </span>
+<span id="L764"><span class="lineNum">     764</span> <span class="tlaGNC">          90 :   &quot;enterprise.title&quot;: &quot;OpenCode | Soluções empresariais para sua organização&quot;,</span></span>
+<span id="L765"><span class="lineNum">     765</span> <span class="tlaGNC">          87 :   &quot;enterprise.meta.description&quot;: &quot;Contate a OpenCode para soluções empresariais&quot;,</span></span>
+<span id="L766"><span class="lineNum">     766</span> <span class="tlaGNC">          52 :   &quot;enterprise.hero.title&quot;: &quot;Seu código é seu&quot;,</span></span>
+<span id="L767"><span class="lineNum">     767</span> <span class="tlaGNC">          25 :   &quot;enterprise.hero.body1&quot;:</span></span>
+<span id="L768"><span class="lineNum">     768</span> <span class="tlaGNC">         317 :     &quot;O OpenCode opera com segurança dentro da sua organização, sem dados ou contexto armazenados e sem restrições de licenciamento ou reivindicações de propriedade. Inicie um teste com sua equipe e, em seguida, implante em toda a organização integrando-o ao seu SSO e gateway de IA interno.&quot;,</span></span>
+<span id="L769"><span class="lineNum">     769</span> <span class="tlaGNC">          66 :   &quot;enterprise.hero.body2&quot;: &quot;Deixe-nos saber como podemos ajudar.&quot;,</span></span>
+<span id="L770"><span class="lineNum">     770</span> <span class="tlaGNC">          48 :   &quot;enterprise.form.name.label&quot;: &quot;Nome completo&quot;,</span></span>
+<span id="L771"><span class="lineNum">     771</span> <span class="tlaGNC">          51 :   &quot;enterprise.form.name.placeholder&quot;: &quot;Jeff Bezos&quot;,</span></span>
+<span id="L772"><span class="lineNum">     772</span> <span class="tlaGNC">          40 :   &quot;enterprise.form.role.label&quot;: &quot;Cargo&quot;,</span></span>
+<span id="L773"><span class="lineNum">     773</span> <span class="tlaGNC">          61 :   &quot;enterprise.form.role.placeholder&quot;: &quot;Presidente Executivo&quot;,</span></span>
+<span id="L774"><span class="lineNum">     774</span> <span class="tlaGNC">          45 :   &quot;enterprise.form.company.label&quot;: &quot;Empresa&quot;,</span></span>
+<span id="L775"><span class="lineNum">     775</span> <span class="tlaGNC">          52 :   &quot;enterprise.form.company.placeholder&quot;: &quot;Acme Inc&quot;,</span></span>
+<span id="L776"><span class="lineNum">     776</span> <span class="tlaGNC">          54 :   &quot;enterprise.form.email.label&quot;: &quot;E-mail corporativo&quot;,</span></span>
+<span id="L777"><span class="lineNum">     777</span> <span class="tlaGNC">          57 :   &quot;enterprise.form.email.placeholder&quot;: &quot;jeff@amazon.com&quot;,</span></span>
+<span id="L778"><span class="lineNum">     778</span> <span class="tlaGNC">          44 :   &quot;enterprise.form.phone.label&quot;: &quot;Telefone&quot;,</span></span>
+<span id="L779"><span class="lineNum">     779</span> <span class="tlaGNC">          57 :   &quot;enterprise.form.phone.placeholder&quot;: &quot;+1 234 567 8900&quot;,</span></span>
+<span id="L780"><span class="lineNum">     780</span> <span class="tlaGNC">          86 :   &quot;enterprise.form.message.label&quot;: &quot;Qual problema você está tentando resolver?&quot;,</span></span>
+<span id="L781"><span class="lineNum">     781</span> <span class="tlaGNC">          70 :   &quot;enterprise.form.message.placeholder&quot;: &quot;Precisamos de ajuda com...&quot;,</span></span>
+<span id="L782"><span class="lineNum">     782</span> <span class="tlaGNC">          35 :   &quot;enterprise.form.send&quot;: &quot;Enviar&quot;,</span></span>
+<span id="L783"><span class="lineNum">     783</span> <span class="tlaGNC">          43 :   &quot;enterprise.form.sending&quot;: &quot;Enviando...&quot;,</span></span>
+<span id="L784"><span class="lineNum">     784</span> <span class="tlaGNC">          81 :   &quot;enterprise.form.success&quot;: &quot;Mensagem enviada, entraremos em contato em breve.&quot;,</span></span>
+<span id="L785"><span class="lineNum">     785</span> <span class="tlaGNC">          76 :   &quot;enterprise.form.success.submitted&quot;: &quot;Formulário enviado com sucesso.&quot;,</span></span>
+<span id="L786"><span class="lineNum">     786</span> <span class="tlaGNC">          87 :   &quot;enterprise.form.error.allFieldsRequired&quot;: &quot;Todos os campos são obrigatórios.&quot;,</span></span>
+<span id="L787"><span class="lineNum">     787</span> <span class="tlaGNC">          79 :   &quot;enterprise.form.error.invalidEmailFormat&quot;: &quot;Formato de e-mail inválido.&quot;,</span></span>
+<span id="L788"><span class="lineNum">     788</span> <span class="tlaGNC">          70 :   &quot;enterprise.form.error.internalServer&quot;: &quot;Erro interno do servidor.&quot;,</span></span>
+<span id="L789"><span class="lineNum">     789</span> <span class="tlaGNC">          32 :   &quot;enterprise.faq.title&quot;: &quot;FAQ&quot;,</span></span>
+<span id="L790"><span class="lineNum">     790</span> <span class="tlaGNC">          57 :   &quot;enterprise.faq.q1&quot;: &quot;O que é OpenCode Enterprise?&quot;,</span></span>
+<span id="L791"><span class="lineNum">     791</span> <span class="tlaGNC">          21 :   &quot;enterprise.faq.a1&quot;:</span></span>
+<span id="L792"><span class="lineNum">     792</span> <span class="tlaGNC">         249 :     &quot;OpenCode Enterprise é para organizações que desejam garantir que seu código e dados nunca saiam de sua infraestrutura. Isso pode ser feito usando uma configuração centralizada que se integra ao seu SSO e gateway de IA interno.&quot;,</span></span>
+<span id="L793"><span class="lineNum">     793</span> <span class="tlaGNC">          81 :   &quot;enterprise.faq.q2&quot;: &quot;Como faço para começar com o OpenCode Enterprise?&quot;,</span></span>
+<span id="L794"><span class="lineNum">     794</span> <span class="tlaGNC">          21 :   &quot;enterprise.faq.a2&quot;:</span></span>
+<span id="L795"><span class="lineNum">     795</span> <span class="tlaGNC">         260 :     &quot;Basta começar com um teste interno com sua equipe. O OpenCode por padrão não armazena seu código ou dados de contexto, facilitando o início. Em seguida, entre em contato conosco para discutir opções de preços e implementação.&quot;,</span></span>
+<span id="L796"><span class="lineNum">     796</span> <span class="tlaGNC">          63 :   &quot;enterprise.faq.q3&quot;: &quot;Como funciona o preço empresarial?&quot;,</span></span>
+<span id="L797"><span class="lineNum">     797</span> <span class="tlaGNC">          21 :   &quot;enterprise.faq.a3&quot;:</span></span>
+<span id="L798"><span class="lineNum">     798</span> <span class="tlaGNC">         268 :     &quot;Oferecemos preços empresariais por assento. Se você tiver seu próprio gateway de LLM, não cobramos pelos tokens usados. Para mais detalhes, entre em contato conosco para um orçamento personalizado com base nas necessidades da sua organização.&quot;,</span></span>
+<span id="L799"><span class="lineNum">     799</span> <span class="tlaGNC">          80 :   &quot;enterprise.faq.q4&quot;: &quot;Meus dados estão seguros com o OpenCode Enterprise?&quot;,</span></span>
+<span id="L800"><span class="lineNum">     800</span> <span class="tlaGNC">          21 :   &quot;enterprise.faq.a4&quot;:</span></span>
+<span id="L801"><span class="lineNum">     801</span> <span class="tlaGNC">         321 :     &quot;Sim. O OpenCode não armazena seu código ou dados de contexto. Todo o processamento acontece localmente ou por meio de chamadas de API diretas para seu provedor de IA. Com configuração centralizada e integração de SSO, seus dados permanecem seguros dentro da infraestrutura de sua organização.&quot;,</span></span>
+<span id="L802"><span class="lineNum">     802</span>              : </span>
+<span id="L803"><span class="lineNum">     803</span> <span class="tlaGNC">          36 :   &quot;brand.title&quot;: &quot;OpenCode | Marca&quot;,</span></span>
+<span id="L804"><span class="lineNum">     804</span> <span class="tlaGNC">          59 :   &quot;brand.meta.description&quot;: &quot;Diretrizes da marca OpenCode&quot;,</span></span>
+<span id="L805"><span class="lineNum">     805</span> <span class="tlaGNC">          41 :   &quot;brand.heading&quot;: &quot;Diretrizes da marca&quot;,</span></span>
+<span id="L806"><span class="lineNum">     806</span> <span class="tlaGNC">          91 :   &quot;brand.subtitle&quot;: &quot;Recursos e ativos para ajudá-lo a trabalhar com a marca OpenCode.&quot;,</span></span>
+<span id="L807"><span class="lineNum">     807</span> <span class="tlaGNC">          50 :   &quot;brand.downloadAll&quot;: &quot;Baixar todos os recursos&quot;,</span></span>
+<span id="L808"><span class="lineNum">     808</span>              : </span>
+<span id="L809"><span class="lineNum">     809</span> <span class="tlaGNC">          44 :   &quot;changelog.title&quot;: &quot;OpenCode | Changelog&quot;,</span></span>
+<span id="L810"><span class="lineNum">     810</span> <span class="tlaGNC">          77 :   &quot;changelog.meta.description&quot;: &quot;Notas de versão e changelog do OpenCode&quot;,</span></span>
+<span id="L811"><span class="lineNum">     811</span> <span class="tlaGNC">          38 :   &quot;changelog.hero.title&quot;: &quot;Changelog&quot;,</span></span>
+<span id="L812"><span class="lineNum">     812</span> <span class="tlaGNC">          80 :   &quot;changelog.hero.subtitle&quot;: &quot;Novas atualizações e melhorias no OpenCode&quot;,</span></span>
+<span id="L813"><span class="lineNum">     813</span> <span class="tlaGNC">          64 :   &quot;changelog.empty&quot;: &quot;Nenhuma entrada de changelog encontrada.&quot;,</span></span>
+<span id="L814"><span class="lineNum">     814</span> <span class="tlaGNC">          35 :   &quot;changelog.viewJson&quot;: &quot;Ver JSON&quot;,</span></span>
+<span id="L815"><span class="lineNum">     815</span>              : </span>
+<span id="L816"><span class="lineNum">     816</span> <span class="tlaGNC">          34 :   &quot;bench.list.title&quot;: &quot;Benchmark&quot;,</span></span>
+<span id="L817"><span class="lineNum">     817</span> <span class="tlaGNC">          37 :   &quot;bench.list.heading&quot;: &quot;Benchmarks&quot;,</span></span>
+<span id="L818"><span class="lineNum">     818</span> <span class="tlaGNC">          37 :   &quot;bench.list.table.agent&quot;: &quot;Agente&quot;,</span></span>
+<span id="L819"><span class="lineNum">     819</span> <span class="tlaGNC">          37 :   &quot;bench.list.table.model&quot;: &quot;Modelo&quot;,</span></span>
+<span id="L820"><span class="lineNum">     820</span> <span class="tlaGNC">          46 :   &quot;bench.list.table.score&quot;: &quot;Pontuação&quot;,</span></span>
+<span id="L821"><span class="lineNum">     821</span> <span class="tlaGNC">          88 :   &quot;bench.submission.error.allFieldsRequired&quot;: &quot;Todos os campos são obrigatórios.&quot;,</span></span>
+<span id="L822"><span class="lineNum">     822</span>              : </span>
+<span id="L823"><span class="lineNum">     823</span> <span class="tlaGNC">          47 :   &quot;bench.detail.title&quot;: &quot;Benchmark - {{task}}&quot;,</span></span>
+<span id="L824"><span class="lineNum">     824</span> <span class="tlaGNC">          54 :   &quot;bench.detail.notFound&quot;: &quot;Tarefa não encontrada&quot;,</span></span>
+<span id="L825"><span class="lineNum">     825</span> <span class="tlaGNC">          27 :   &quot;bench.detail.na&quot;: &quot;N/A&quot;,</span></span>
+<span id="L826"><span class="lineNum">     826</span> <span class="tlaGNC">          40 :   &quot;bench.detail.labels.agent&quot;: &quot;Agente&quot;,</span></span>
+<span id="L827"><span class="lineNum">     827</span> <span class="tlaGNC">          40 :   &quot;bench.detail.labels.model&quot;: &quot;Modelo&quot;,</span></span>
+<span id="L828"><span class="lineNum">     828</span> <span class="tlaGNC">          39 :   &quot;bench.detail.labels.task&quot;: &quot;Tarefa&quot;,</span></span>
+<span id="L829"><span class="lineNum">     829</span> <span class="tlaGNC">          47 :   &quot;bench.detail.labels.repo&quot;: &quot;Repositório&quot;,</span></span>
+<span id="L830"><span class="lineNum">     830</span> <span class="tlaGNC">          35 :   &quot;bench.detail.labels.from&quot;: &quot;De&quot;,</span></span>
+<span id="L831"><span class="lineNum">     831</span> <span class="tlaGNC">          35 :   &quot;bench.detail.labels.to&quot;: &quot;Para&quot;,</span></span>
+<span id="L832"><span class="lineNum">     832</span> <span class="tlaGNC">          41 :   &quot;bench.detail.labels.prompt&quot;: &quot;Prompt&quot;,</span></span>
+<span id="L833"><span class="lineNum">     833</span> <span class="tlaGNC">          41 :   &quot;bench.detail.labels.commit&quot;: &quot;Commit&quot;,</span></span>
+<span id="L834"><span class="lineNum">     834</span> <span class="tlaGNC">          66 :   &quot;bench.detail.labels.averageDuration&quot;: &quot;Duração Média&quot;,</span></span>
+<span id="L835"><span class="lineNum">     835</span> <span class="tlaGNC">          65 :   &quot;bench.detail.labels.averageScore&quot;: &quot;Pontuação Média&quot;,</span></span>
+<span id="L836"><span class="lineNum">     836</span> <span class="tlaGNC">          54 :   &quot;bench.detail.labels.averageCost&quot;: &quot;Custo Médio&quot;,</span></span>
+<span id="L837"><span class="lineNum">     837</span> <span class="tlaGNC">          42 :   &quot;bench.detail.labels.summary&quot;: &quot;Resumo&quot;,</span></span>
+<span id="L838"><span class="lineNum">     838</span> <span class="tlaGNC">          48 :   &quot;bench.detail.labels.runs&quot;: &quot;Execuções&quot;,</span></span>
+<span id="L839"><span class="lineNum">     839</span> <span class="tlaGNC">          49 :   &quot;bench.detail.labels.score&quot;: &quot;Pontuação&quot;,</span></span>
+<span id="L840"><span class="lineNum">     840</span> <span class="tlaGNC">          37 :   &quot;bench.detail.labels.base&quot;: &quot;Base&quot;,</span></span>
+<span id="L841"><span class="lineNum">     841</span> <span class="tlaGNC">          46 :   &quot;bench.detail.labels.penalty&quot;: &quot;Penalidade&quot;,</span></span>
+<span id="L842"><span class="lineNum">     842</span> <span class="tlaGNC">          39 :   &quot;bench.detail.labels.weight&quot;: &quot;peso&quot;,</span></span>
+<span id="L843"><span class="lineNum">     843</span> <span class="tlaGNC">          45 :   &quot;bench.detail.table.run&quot;: &quot;Execução&quot;,</span></span>
+<span id="L844"><span class="lineNum">     844</span> <span class="tlaGNC">          68 :   &quot;bench.detail.table.score&quot;: &quot;Pontuação (Base - Penalidade)&quot;,</span></span>
+<span id="L845"><span class="lineNum">     845</span> <span class="tlaGNC">          37 :   &quot;bench.detail.table.cost&quot;: &quot;Custo&quot;,</span></span>
+<span id="L846"><span class="lineNum">     846</span> <span class="tlaGNC">          49 :   &quot;bench.detail.table.duration&quot;: &quot;Duração&quot;,</span></span>
+<span id="L847"><span class="lineNum">     847</span> <span class="tlaGNC">          51 :   &quot;bench.detail.run.title&quot;: &quot;Execução {{n}}&quot;,</span></span>
+<span id="L848"><span class="lineNum">     848</span> <span class="tlaGNC">          37 :   &quot;bench.detail.rawJson&quot;: &quot;JSON Bruto&quot;,</span></span>
+<span id="L849"><span class="lineNum">     849</span> <span class="tlaGNC">           1 : } satisfies Dict</span></span>
+        </pre>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <table width="100%" border=0 cellspacing=0 cellpadding=0>
+            <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+            <tr><td class="versionInfo">Generated by: <a href="https://github.com//linux-test-project/lcov" target="_parent">LCOV version 2.0-1</a></td></tr>
+          </table>
+          <br>
+
+</body>
+</html>
